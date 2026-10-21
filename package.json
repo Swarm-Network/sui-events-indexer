@@ -1,8 +1,8 @@
 {
   "name": "sui-events-indexer",
-  "version": "1.0.1",
-  "description": "A CLI tool that generates a complete event indexing solution for Sui Move packages",
-  "main": "dist/index.js",
+  "version": "2.0.0",
+  "description": "A CLI that generates a Bun + Drizzle event indexer for Sui Move packages",
+  "type": "module",
   "bin": {
     "sui-events-indexer": "./dist/index.js"
   },
@@ -10,6 +10,9 @@
     "dist",
     "README.md"
   ],
+  "engines": {
+    "bun": ">=1.3.0"
+  },
   "keywords": [
     "sui",
     "move",
@@ -17,28 +20,27 @@
     "events",
     "indexer",
     "typescript",
-    "prisma"
+    "bun",
+    "drizzle"
   ],
   "author": "Buidly",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^22.10.5",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
-  },
   "scripts": {
-    "build": "tsc && chmod +x dist/index.js",
-    "dev": "npm run build && tsx src/index.ts",
-    "dev:generate": "npm run build && node dist/index.js generate",
-    "start": "tsx src/index.ts",
-    "start:debug": "tsx --inspect-brk src/index.ts"
+    "dev": "bun src/index.ts",
+    "generate": "bun src/index.ts generate",
+    "inspect": "bun src/index.ts inspect",
+    "build": "bun build src/index.ts --target=bun --packages=external --outdir=dist && chmod +x dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "check": "bun run typecheck && bun test",
+    "prepublishOnly": "bun run check && bun run build"
   },
   "dependencies": {
-    "@mysten/sui": "^1.18.0",
-    "@prisma/client": "^6.1.0",
-    "axios": "^1.7.9",
-    "commander": "^13.0.0",
-    "prisma": "^6.1.0"
+    "@mysten/sui": "^2.37.0",
+    "commander": "^15.0.0"
   },
-  "type": "commonjs"
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "typescript": "^7.0.2"
+  }
 }
