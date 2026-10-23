@@ -1,0 +1,1767 @@
+[
+ {
+  "key": "Package {\"address\":\"0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd\"}",
+  "data": {
+   "package": {
+    "address": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd",
+    "version": 1,
+    "packageVersionsAfter": {
+     "nodes": []
+    }
+   }
+  }
+ },
+ {
+  "key": "PackageDetails {\"address\":\"0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd\"}",
+  "data": {
+   "package": {
+    "typeOrigins": [
+     {
+      "module": "license",
+      "struct": "LICENSE",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "License",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "Lock",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "AdminCap",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "Registry",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "MigrateEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "RegistryUpgradedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "license",
+      "struct": "LeaseTerm",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "LeaseBook",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "Lease",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "LeaseBuilder",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "LeaseBookCreatedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "LeasedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "ReleasedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "LeasingPausedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "lease",
+      "struct": "LeaseBookUpgradedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "Marketplace",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "Listing",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "MarketplaceCreatedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "ListedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "DelistedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "SoldEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "CommissionChangedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "TreasuryChangedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "MarketPausedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     },
+     {
+      "module": "marketplace",
+      "struct": "MarketplaceUpgradedEvent",
+      "definingId": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "key": "Modules {\"address\":\"0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd\",\"first\":10,\"after\":null}",
+  "data": {
+   "package": {
+    "modules": {
+     "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "Im1hcmtldHBsYWNlIg=="
+     },
+     "nodes": [
+      {
+       "name": "lease",
+       "disassembly": "// Move bytecode v7\nmodule 696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd.lease {\nuse 0000000000000000000000000000000000000000000000000000000000000001::option;\nuse 0000000000000000000000000000000000000000000000000000000000000001::vector;\nuse 0000000000000000000000000000000000000000000000000000000000000002::clock;\nuse 0000000000000000000000000000000000000000000000000000000000000002::event;\nuse 0000000000000000000000000000000000000000000000000000000000000002::object;\nuse 0000000000000000000000000000000000000000000000000000000000000002::transfer;\nuse 0000000000000000000000000000000000000000000000000000000000000002::tx_context;\nuse 696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd::license;\n\nstruct LeaseBook has key {\n\tid: UID,\n\tversion: u64,\n\tis_paused: bool,\n\tleases_created: u64,\n\tlicenses_locked: u64\n}\n\nstruct Lease has key {\n\tid: UID,\n\tlessee: address,\n\tlicense_ids: vector<ID>,\n\torigins: vector<ID>,\n\tterm: LeaseTerm,\n\tstart_ms: u64,\n\tend_ms: u64,\n\tlocked_count: u64,\n\tlegacy_lease_id: Option<u64>\n}\n\nstruct LeaseBuilder {\n\tlease: Lease\n}\n\nstruct LeaseBookCreatedEvent has copy, drop {\n\tlease_book_id: ID\n}\n\nstruct LeasedEvent has copy, drop {\n\tlease_id: ID,\n\tlessee: address,\n\tlicense_ids: vector<ID>,\n\torigins: vector<ID>,\n\tterm_months: u64,\n\tstart_ms: u64,\n\tend_ms: u64,\n\tlegacy_lease_id: Option<u64>\n}\n\nstruct ReleasedEvent has copy, drop {\n\tlease_id: ID,\n\tlicense_id: ID,\n\torigin: ID,\n\tlessee: address,\n\tend_ms: u64,\n\treleased_ms: u64,\n\tremaining: u64\n}\n\nstruct LeasingPausedEvent has copy, drop {\n\tlease_book_id: ID,\n\tis_paused: bool\n}\n\nstruct LeaseBookUpgradedEvent has copy, drop {\n\tlease_book_id: ID,\n\tfrom: u64,\n\tto: u64\n}\n\ninit(Arg0: &mut TxContext) {\nL1:\tloc0: LeaseBook\nB0:\n\t0: MoveLoc[0](Arg0: &mut TxContext)\n\t1: Call object::new(&mut TxContext): UID\n\t2: LdConst[0](u64: 1)\n\t3: LdFalse\n\t4: LdU64(0)\n\t5: LdU64(0)\n\t6: Pack[0](LeaseBook)\n\t7: StLoc[1](loc0: LeaseBook)\n\t8: ImmBorrowLoc[1](loc0: LeaseBook)\n\t9: Call object::id<LeaseBook>(&LeaseBook): ID\n\t10: Pack[3](LeaseBookCreatedEvent)\n\t11: Call event::emit<LeaseBookCreatedEvent>(LeaseBookCreatedEvent)\n\t12: MoveLoc[1](loc0: LeaseBook)\n\t13: Call transfer::share_object<LeaseBook>(LeaseBook)\n\t14: Ret\n}\n\npublic set_leasing_paused(Arg0: &AdminCap, Arg1: &mut LeaseBook, Arg2: bool) {\nB0:\n\t0: CopyLoc[1](Arg1: &mut LeaseBook)\n\t1: ImmBorrowField[0](LeaseBook.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(11)\nB2:\n\t7: MoveLoc[1](Arg1: &mut LeaseBook)\n\t8: Pop\n\t9: LdConst[0](u64: 1)\n\t10: Abort\nB3:\n\t11: CopyLoc[2](Arg2: bool)\n\t12: CopyLoc[1](Arg1: &mut LeaseBook)\n\t13: MutBorrowField[1](LeaseBook.is_paused: bool)\n\t14: WriteRef\n\t15: MoveLoc[1](Arg1: &mut LeaseBook)\n\t16: FreezeRef\n\t17: Call object::id<LeaseBook>(&LeaseBook): ID\n\t18: MoveLoc[2](Arg2: bool)\n\t19: Pack[6](LeasingPausedEvent)\n\t20: Call event::emit<LeasingPausedEvent>(LeasingPausedEvent)\n\t21: Ret\n}\n\npublic upgrade_lease_book(Arg0: &AdminCap, Arg1: &mut LeaseBook) {\nL2:\tloc0: u64\nB0:\n\t0: CopyLoc[1](Arg1: &mut LeaseBook)\n\t1: ImmBorrowField[0](LeaseBook.version: u64)\n\t2: ReadRef\n\t3: StLoc[2](loc0: u64)\n\t4: CopyLoc[2](loc0: u64)\n\t5: LdConst[0](u64: 1)\n\t6: Lt\n\t7: BrFalse(9)\nB1:\n\t8: Branch(13)\nB2:\n\t9: MoveLoc[1](Arg1: &mut LeaseBook)\n\t10: Pop\n\t11: LdConst[9](u64: 10)\n\t12: Abort\nB3:\n\t13: LdConst[0](u64: 1)\n\t14: CopyLoc[1](Arg1: &mut LeaseBook)\n\t15: MutBorrowField[0](LeaseBook.version: u64)\n\t16: WriteRef\n\t17: MoveLoc[1](Arg1: &mut LeaseBook)\n\t18: FreezeRef\n\t19: Call object::id<LeaseBook>(&LeaseBook): ID\n\t20: MoveLoc[2](loc0: u64)\n\t21: LdConst[0](u64: 1)\n\t22: Pack[7](LeaseBookUpgradedEvent)\n\t23: Call event::emit<LeaseBookUpgradedEvent>(LeaseBookUpgradedEvent)\n\t24: Ret\n}\n\npublic open(Arg0: &LeaseBook, Arg1: u64, Arg2: &Clock, Arg3: &mut TxContext): LeaseBuilder {\nL4:\tloc0: Option<LeaseTerm>\nL5:\tloc1: LeaseTerm\nB0:\n\t0: CopyLoc[0](Arg0: &LeaseBook)\n\t1: ImmBorrowField[0](LeaseBook.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(15)\nB2:\n\t7: MoveLoc[3](Arg3: &mut TxContext)\n\t8: Pop\n\t9: MoveLoc[2](Arg2: &Clock)\n\t10: Pop\n\t11: MoveLoc[0](Arg0: &LeaseBook)\n\t12: Pop\n\t13: LdConst[0](u64: 1)\n\t14: Abort\nB3:\n\t15: MoveLoc[0](Arg0: &LeaseBook)\n\t16: ImmBorrowField[1](LeaseBook.is_paused: bool)\n\t17: ReadRef\n\t18: Not\n\t19: BrFalse(21)\nB4:\n\t20: Branch(27)\nB5:\n\t21: MoveLoc[3](Arg3: &mut TxContext)\n\t22: Pop\n\t23: MoveLoc[2](Arg2: &Clock)\n\t24: Pop\n\t25: LdConst[1](u64: 2)\n\t26: Abort\nB6:\n\t27: MoveLoc[1](Arg1: u64)\n\t28: Call license::lease_term(u64): Option<LeaseTerm>\n\t29: StLoc[4](loc0: Option<LeaseTerm>)\n\t30: ImmBorrowLoc[4](loc0: Option<LeaseTerm>)\n\t31: Call option::is_some<LeaseTerm>(&Option<LeaseTerm>): bool\n\t32: BrFalse(34)\nB7:\n\t33: Branch(40)\nB8:\n\t34: MoveLoc[3](Arg3: &mut TxContext)\n\t35: Pop\n\t36: MoveLoc[2](Arg2: &Clock)\n\t37: Pop\n\t38: LdConst[2](u64: 3)\n\t39: Abort\nB9:\n\t40: MoveLoc[4](loc0: Option<LeaseTerm>)\n\t41: Call option::destroy_some<LeaseTerm>(Option<LeaseTerm>): LeaseTerm\n\t42: StLoc[5](loc1: LeaseTerm)\n\t43: CopyLoc[3](Arg3: &mut TxContext)\n\t44: FreezeRef\n\t45: Call tx_context::sender(&TxContext): address\n\t46: MoveLoc[5](loc1: LeaseTerm)\n\t47: MoveLoc[2](Arg2: &Clock)\n\t48: Call clock::timestamp_ms(&Clock): u64\n\t49: Call option::none<u64>(): Option<u64>\n\t50: MoveLoc[3](Arg3: &mut TxContext)\n\t51: Call new_builder(address, LeaseTerm, u64, Option<u64>, &mut TxContext): LeaseBuilder\n\t52: Ret\n}\n\npublic add(Arg0: &mut LeaseBuilder, Arg1: License, Arg2: &mut TxContext) {\nB0:\n\t0: MoveLoc[2](Arg2: &mut TxContext)\n\t1: FreezeRef\n\t2: Call tx_context::sender(&TxContext): address\n\t3: CopyLoc[0](Arg0: &mut LeaseBuilder)\n\t4: ImmBorrowField[2](LeaseBuilder.lease: Lease)\n\t5: ImmBorrowField[3](Lease.lessee: address)\n\t6: ReadRef\n\t7: Eq\n\t8: BrFalse(10)\nB1:\n\t9: Branch(14)\nB2:\n\t10: MoveLoc[0](Arg0: &mut LeaseBuilder)\n\t11: Pop\n\t12: LdConst[6](u64: 7)\n\t13: Abort\nB3:\n\t14: MoveLoc[0](Arg0: &mut LeaseBuilder)\n\t15: MoveLoc[1](Arg1: License)\n\t16: Call lock_into(&mut LeaseBuilder, License)\n\t17: Ret\n}\n\npublic finish(Arg0: &mut LeaseBook, Arg1: LeaseBuilder) {\nL2:\tloc0: Lease\nB0:\n\t0: MoveLoc[1](Arg1: LeaseBuilder)\n\t1: Unpack[2](LeaseBuilder)\n\t2: StLoc[2](loc0: Lease)\n\t3: CopyLoc[0](Arg0: &mut LeaseBook)\n\t4: ImmBorrowField[0](LeaseBook.version: u64)\n\t5: ReadRef\n\t6: LdConst[0](u64: 1)\n\t7: Eq\n\t8: BrFalse(10)\nB1:\n\t9: Branch(14)\nB2:\n\t10: MoveLoc[0](Arg0: &mut LeaseBook)\n\t11: Pop\n\t12: LdConst[0](u64: 1)\n\t13: Abort\nB3:\n\t14: ImmBorrowLoc[2](loc0: Lease)\n\t15: ImmBorrowField[4](Lease.license_ids: vector<ID>)\n\t16: Call vector::is_empty<ID>(&vector<ID>): bool\n\t17: Not\n\t18: BrFalse(20)\nB4:\n\t19: Branch(24)\nB5:\n\t20: MoveLoc[0](Arg0: &mut LeaseBook)\n\t21: Pop\n\t22: LdConst[3](u64: 4)\n\t23: Abort\nB6:\n\t24: CopyLoc[0](Arg0: &mut LeaseBook)\n\t25: ImmBorrowField[5](LeaseBook.leases_created: u64)\n\t26: ReadRef\n\t27: LdU64(1)\n\t28: Add\n\t29: CopyLoc[0](Arg0: &mut LeaseBook)\n\t30: MutBorrowField[5](LeaseBook.leases_created: u64)\n\t31: WriteRef\n\t32: CopyLoc[0](Arg0: &mut LeaseBook)\n\t33: ImmBorrowField[6](LeaseBook.licenses_locked: u64)\n\t34: ReadRef\n\t35: ImmBorrowLoc[2](loc0: Lease)\n\t36: ImmBorrowField[7](Lease.locked_count: u64)\n\t37: ReadRef\n\t38: Add\n\t39: MoveLoc[0](Arg0: &mut LeaseBook)\n\t40: MutBorrowField[6](LeaseBook.licenses_locked: u64)\n\t41: WriteRef\n\t42: ImmBorrowLoc[2](loc0: Lease)\n\t43: Call object::id<Lease>(&Lease): ID\n\t44: ImmBorrowLoc[2](loc0: Lease)\n\t45: ImmBorrowField[3](Lease.lessee: address)\n\t46: ReadRef\n\t47: ImmBorrowLoc[2](loc0: Lease)\n\t48: ImmBorrowField[4](Lease.license_ids: vector<ID>)\n\t49: ReadRef\n\t50: ImmBorrowLoc[2](loc0: Lease)\n\t51: ImmBorrowField[8](Lease.origins: vector<ID>)\n\t52: ReadRef\n\t53: ImmBorrowLoc[2](loc0: Lease)\n\t54: ImmBorrowField[9](Lease.term: LeaseTerm)\n\t55: Call license::lease_term_months(&LeaseTerm): u64\n\t56: ImmBorrowLoc[2](loc0: Lease)\n\t57: ImmBorrowField[10](Lease.start_ms: u64)\n\t58: ReadRef\n\t59: ImmBorrowLoc[2](loc0: Lease)\n\t60: ImmBorrowField[11](Lease.end_ms: u64)\n\t61: ReadRef\n\t62: ImmBorrowLoc[2](loc0: Lease)\n\t63: ImmBorrowField[12](Lease.legacy_lease_id: Option<u64>)\n\t64: ReadRef\n\t65: Pack[4](LeasedEvent)\n\t66: Call event::emit<LeasedEvent>(LeasedEvent)\n\t67: MoveLoc[2](loc0: Lease)\n\t68: Call transfer::share_object<Lease>(Lease)\n\t69: Ret\n}\n\nentry airdrop_leased(Arg0: &AdminCap, Arg1: &mut Registry, Arg2: &mut LeaseBook, Arg3: address, Arg4: vector<ID>, Arg5: vector<u64>, Arg6: u64, Arg7: u64, Arg8: u64, Arg9: &Clock, Arg10: &mut TxContext) {\nL11:\tloc0: LeaseBuilder\nL12:\tloc1: u64\nL13:\tloc2: License\nL14:\tloc3: Option<LeaseTerm>\nB0:\n\t0: CopyLoc[2](Arg2: &mut LeaseBook)\n\t1: ImmBorrowField[0](LeaseBook.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(17)\nB2:\n\t7: MoveLoc[1](Arg1: &mut Registry)\n\t8: Pop\n\t9: MoveLoc[10](Arg10: &mut TxContext)\n\t10: Pop\n\t11: MoveLoc[9](Arg9: &Clock)\n\t12: Pop\n\t13: MoveLoc[2](Arg2: &mut LeaseBook)\n\t14: Pop\n\t15: LdConst[0](u64: 1)\n\t16: Abort\nB3:\n\t17: ImmBorrowLoc[4](Arg4: vector<ID>)\n\t18: Call vector::is_empty<ID>(&vector<ID>): bool\n\t19: Not\n\t20: BrFalse(22)\nB4:\n\t21: Branch(32)\nB5:\n\t22: MoveLoc[1](Arg1: &mut Registry)\n\t23: Pop\n\t24: MoveLoc[10](Arg10: &mut TxContext)\n\t25: Pop\n\t26: MoveLoc[9](Arg9: &Clock)\n\t27: Pop\n\t28: MoveLoc[2](Arg2: &mut LeaseBook)\n\t29: Pop\n\t30: LdConst[10](u64: 11)\n\t31: Abort\nB6:\n\t32: ImmBorrowLoc[5](Arg5: vector<u64>)\n\t33: VecLen(14)\n\t34: ImmBorrowLoc[4](Arg4: vector<ID>)\n\t35: VecLen(22)\n\t36: Eq\n\t37: BrFalse(39)\nB7:\n\t38: Branch(49)\nB8:\n\t39: MoveLoc[1](Arg1: &mut Registry)\n\t40: Pop\n\t41: MoveLoc[10](Arg10: &mut TxContext)\n\t42: Pop\n\t43: MoveLoc[9](Arg9: &Clock)\n\t44: Pop\n\t45: MoveLoc[2](Arg2: &mut LeaseBook)\n\t46: Pop\n\t47: LdConst[11](u64: 12)\n\t48: Abort\nB9:\n\t49: ImmBorrowLoc[4](Arg4: vector<ID>)\n\t50: VecLen(22)\n\t51: LdConst[13](u64: 100)\n\t52: Le\n\t53: BrFalse(55)\nB10:\n\t54: Branch(65)\nB11:\n\t55: MoveLoc[1](Arg1: &mut Registry)\n\t56: Pop\n\t57: MoveLoc[10](Arg10: &mut TxContext)\n\t58: Pop\n\t59: MoveLoc[9](Arg9: &Clock)\n\t60: Pop\n\t61: MoveLoc[2](Arg2: &mut LeaseBook)\n\t62: Pop\n\t63: LdConst[4](u64: 5)\n\t64: Abort\nB12:\n\t65: CopyLoc[7](Arg7: u64)\n\t66: MoveLoc[9](Arg9: &Clock)\n\t67: Call clock::timestamp_ms(&Clock): u64\n\t68: Le\n\t69: BrFalse(71)\nB13:\n\t70: Branch(79)\nB14:\n\t71: MoveLoc[1](Arg1: &mut Registry)\n\t72: Pop\n\t73: MoveLoc[10](Arg10: &mut TxContext)\n\t74: Pop\n\t75: MoveLoc[2](Arg2: &mut LeaseBook)\n\t76: Pop\n\t77: LdConst[12](u64: 13)\n\t78: Abort\nB15:\n\t79: MoveLoc[6](Arg6: u64)\n\t80: Call license::lease_term(u64): Option<LeaseTerm>\n\t81: StLoc[14](loc3: Option<LeaseTerm>)\n\t82: ImmBorrowLoc[14](loc3: Option<LeaseTerm>)\n\t83: Call option::is_some<LeaseTerm>(&Option<LeaseTerm>): bool\n\t84: BrFalse(86)\nB16:\n\t85: Branch(94)\nB17:\n\t86: MoveLoc[1](Arg1: &mut Registry)\n\t87: Pop\n\t88: MoveLoc[10](Arg10: &mut TxContext)\n\t89: Pop\n\t90: MoveLoc[2](Arg2: &mut LeaseBook)\n\t91: Pop\n\t92: LdConst[2](u64: 3)\n\t93: Abort\nB18:\n\t94: CopyLoc[3](Arg3: address)\n\t95: MoveLoc[14](loc3: Option<LeaseTerm>)\n\t96: Call option::destroy_some<LeaseTerm>(Option<LeaseTerm>): LeaseTerm\n\t97: MoveLoc[7](Arg7: u64)\n\t98: MoveLoc[8](Arg8: u64)\n\t99: Call option::some<u64>(u64): Option<u64>\n\t100: CopyLoc[10](Arg10: &mut TxContext)\n\t101: Call new_builder(address, LeaseTerm, u64, Option<u64>, &mut TxContext): LeaseBuilder\n\t102: StLoc[11](loc0: LeaseBuilder)\n\t103: LdU64(0)\n\t104: StLoc[12](loc1: u64)\nB19:\n\t105: CopyLoc[12](loc1: u64)\n\t106: ImmBorrowLoc[4](Arg4: vector<ID>)\n\t107: VecLen(22)\n\t108: Lt\n\t109: BrFalse(131)\nB20:\n\t110: CopyLoc[1](Arg1: &mut Registry)\n\t111: ImmBorrowLoc[4](Arg4: vector<ID>)\n\t112: CopyLoc[12](loc1: u64)\n\t113: VecImmBorrow(22)\n\t114: ReadRef\n\t115: ImmBorrowLoc[5](Arg5: vector<u64>)\n\t116: CopyLoc[12](loc1: u64)\n\t117: VecImmBorrow(14)\n\t118: ReadRef\n\t119: CopyLoc[3](Arg3: address)\n\t120: CopyLoc[10](Arg10: &mut TxContext)\n\t121: Call license::issue(&mut Registry, ID, u64, address, &mut TxContext): License\n\t122: StLoc[13](loc2: License)\n\t123: MutBorrowLoc[11](loc0: LeaseBuilder)\n\t124: MoveLoc[13](loc2: License)\n\t125: Call lock_into(&mut LeaseBuilder, License)\n\t126: MoveLoc[12](loc1: u64)\n\t127: LdU64(1)\n\t128: Add\n\t129: StLoc[12](loc1: u64)\n\t130: Branch(105)\nB21:\n\t131: MoveLoc[1](Arg1: &mut Registry)\n\t132: Pop\n\t133: MoveLoc[10](Arg10: &mut TxContext)\n\t134: Pop\n\t135: MoveLoc[2](Arg2: &mut LeaseBook)\n\t136: MoveLoc[11](loc0: LeaseBuilder)\n\t137: Call finish(&mut LeaseBook, LeaseBuilder)\n\t138: Ret\n}\n\nentry release(Arg0: &mut LeaseBook, Arg1: &mut Lease, Arg2: &mut License, Arg3: &Clock, Arg4: &TxContext) {\nL5:\tloc0: ID\nL6:\tloc1: u64\nB0:\n\t0: MoveLoc[4](Arg4: &TxContext)\n\t1: Call tx_context::sender(&TxContext): address\n\t2: CopyLoc[1](Arg1: &mut Lease)\n\t3: ImmBorrowField[3](Lease.lessee: address)\n\t4: ReadRef\n\t5: Eq\n\t6: BrFalse(8)\nB1:\n\t7: Branch(18)\nB2:\n\t8: MoveLoc[2](Arg2: &mut License)\n\t9: Pop\n\t10: MoveLoc[1](Arg1: &mut Lease)\n\t11: Pop\n\t12: MoveLoc[3](Arg3: &Clock)\n\t13: Pop\n\t14: MoveLoc[0](Arg0: &mut LeaseBook)\n\t15: Pop\n\t16: LdConst[6](u64: 7)\n\t17: Abort\nB3:\n\t18: MoveLoc[3](Arg3: &Clock)\n\t19: Call clock::timestamp_ms(&Clock): u64\n\t20: StLoc[6](loc1: u64)\n\t21: CopyLoc[6](loc1: u64)\n\t22: CopyLoc[1](Arg1: &mut Lease)\n\t23: ImmBorrowField[11](Lease.end_ms: u64)\n\t24: ReadRef\n\t25: Ge\n\t26: BrFalse(28)\nB4:\n\t27: Branch(36)\nB5:\n\t28: MoveLoc[2](Arg2: &mut License)\n\t29: Pop\n\t30: MoveLoc[1](Arg1: &mut Lease)\n\t31: Pop\n\t32: MoveLoc[0](Arg0: &mut LeaseBook)\n\t33: Pop\n\t34: LdConst[7](u64: 8)\n\t35: Abort\nB6:\n\t36: CopyLoc[1](Arg1: &mut Lease)\n\t37: FreezeRef\n\t38: Call object::id<Lease>(&Lease): ID\n\t39: StLoc[5](loc0: ID)\n\t40: CopyLoc[2](Arg2: &mut License)\n\t41: FreezeRef\n\t42: Call license::lock_lease_id(&License): Option<ID>\n\t43: CopyLoc[5](loc0: ID)\n\t44: Call option::some<ID>(ID): Option<ID>\n\t45: Eq\n\t46: BrFalse(48)\nB7:\n\t47: Branch(56)\nB8:\n\t48: MoveLoc[2](Arg2: &mut License)\n\t49: Pop\n\t50: MoveLoc[1](Arg1: &mut Lease)\n\t51: Pop\n\t52: MoveLoc[0](Arg0: &mut LeaseBook)\n\t53: Pop\n\t54: LdConst[8](u64: 9)\n\t55: Abort\nB9:\n\t56: CopyLoc[2](Arg2: &mut License)\n\t57: CopyLoc[5](loc0: ID)\n\t58: Call license::clear_lock(&mut License, ID)\n\t59: CopyLoc[1](Arg1: &mut Lease)\n\t60: ImmBorrowField[7](Lease.locked_count: u64)\n\t61: ReadRef\n\t62: LdU64(1)\n\t63: Sub\n\t64: CopyLoc[1](Arg1: &mut Lease)\n\t65: MutBorrowField[7](Lease.locked_count: u64)\n\t66: WriteRef\n\t67: CopyLoc[0](Arg0: &mut LeaseBook)\n\t68: ImmBorrowField[6](LeaseBook.licenses_locked: u64)\n\t69: ReadRef\n\t70: LdU64(1)\n\t71: Sub\n\t72: MoveLoc[0](Arg0: &mut LeaseBook)\n\t73: MutBorrowField[6](LeaseBook.licenses_locked: u64)\n\t74: WriteRef\n\t75: MoveLoc[5](loc0: ID)\n\t76: CopyLoc[2](Arg2: &mut License)\n\t77: FreezeRef\n\t78: Call object::id<License>(&License): ID\n\t79: MoveLoc[2](Arg2: &mut License)\n\t80: FreezeRef\n\t81: Call license::origin(&License): ID\n\t82: CopyLoc[1](Arg1: &mut Lease)\n\t83: ImmBorrowField[3](Lease.lessee: address)\n\t84: ReadRef\n\t85: CopyLoc[1](Arg1: &mut Lease)\n\t86: ImmBorrowField[11](Lease.end_ms: u64)\n\t87: ReadRef\n\t88: MoveLoc[6](loc1: u64)\n\t89: MoveLoc[1](Arg1: &mut Lease)\n\t90: ImmBorrowField[7](Lease.locked_count: u64)\n\t91: ReadRef\n\t92: Pack[5](ReleasedEvent)\n\t93: Call event::emit<ReleasedEvent>(ReleasedEvent)\n\t94: Ret\n}\n\nnew_builder(Arg0: address, Arg1: LeaseTerm, Arg2: u64, Arg3: Option<u64>, Arg4: &mut TxContext): LeaseBuilder {\nB0:\n\t0: MoveLoc[4](Arg4: &mut TxContext)\n\t1: Call object::new(&mut TxContext): UID\n\t2: MoveLoc[0](Arg0: address)\n\t3: VecPack(22, 0)\n\t4: VecPack(22, 0)\n\t5: CopyLoc[1](Arg1: LeaseTerm)\n\t6: CopyLoc[2](Arg2: u64)\n\t7: ImmBorrowLoc[1](Arg1: LeaseTerm)\n\t8: MoveLoc[2](Arg2: u64)\n\t9: Call license::lease_term_end_ms(&LeaseTerm, u64): u64\n\t10: LdU64(0)\n\t11: MoveLoc[3](Arg3: Option<u64>)\n\t12: Pack[1](Lease)\n\t13: Pack[2](LeaseBuilder)\n\t14: Ret\n}\n\nlock_into(Arg0: &mut LeaseBuilder, Arg1: License) {\nL2:\tloc0: &mut Lease\nB0:\n\t0: MoveLoc[0](Arg0: &mut LeaseBuilder)\n\t1: MutBorrowField[2](LeaseBuilder.lease: Lease)\n\t2: StLoc[2](loc0: &mut Lease)\n\t3: ImmBorrowLoc[1](Arg1: License)\n\t4: Call license::is_locked(&License): bool\n\t5: Not\n\t6: BrFalse(8)\nB1:\n\t7: Branch(12)\nB2:\n\t8: MoveLoc[2](loc0: &mut Lease)\n\t9: Pop\n\t10: LdConst[5](u64: 6)\n\t11: Abort\nB3:\n\t12: CopyLoc[2](loc0: &mut Lease)\n\t13: ImmBorrowField[4](Lease.license_ids: vector<ID>)\n\t14: VecLen(22)\n\t15: LdConst[13](u64: 100)\n\t16: Lt\n\t17: BrFalse(19)\nB4:\n\t18: Branch(23)\nB5:\n\t19: MoveLoc[2](loc0: &mut Lease)\n\t20: Pop\n\t21: LdConst[4](u64: 5)\n\t22: Abort\nB6:\n\t23: MutBorrowLoc[1](Arg1: License)\n\t24: CopyLoc[2](loc0: &mut Lease)\n\t25: FreezeRef\n\t26: Call object::id<Lease>(&Lease): ID\n\t27: CopyLoc[2](loc0: &mut Lease)\n\t28: ImmBorrowField[10](Lease.start_ms: u64)\n\t29: ReadRef\n\t30: CopyLoc[2](loc0: &mut Lease)\n\t31: ImmBorrowField[9](Lease.term: LeaseTerm)\n\t32: ReadRef\n\t33: Call license::set_lock(&mut License, ID, u64, LeaseTerm)\n\t34: CopyLoc[2](loc0: &mut Lease)\n\t35: MutBorrowField[4](Lease.license_ids: vector<ID>)\n\t36: ImmBorrowLoc[1](Arg1: License)\n\t37: Call object::id<License>(&License): ID\n\t38: VecPushBack(22)\n\t39: CopyLoc[2](loc0: &mut Lease)\n\t40: MutBorrowField[8](Lease.origins: vector<ID>)\n\t41: ImmBorrowLoc[1](Arg1: License)\n\t42: Call license::origin(&License): ID\n\t43: VecPushBack(22)\n\t44: CopyLoc[2](loc0: &mut Lease)\n\t45: ImmBorrowField[7](Lease.locked_count: u64)\n\t46: ReadRef\n\t47: LdU64(1)\n\t48: Add\n\t49: CopyLoc[2](loc0: &mut Lease)\n\t50: MutBorrowField[7](Lease.locked_count: u64)\n\t51: WriteRef\n\t52: MoveLoc[1](Arg1: License)\n\t53: MoveLoc[2](loc0: &mut Lease)\n\t54: ImmBorrowField[3](Lease.lessee: address)\n\t55: ReadRef\n\t56: Call license::deliver(License, address)\n\t57: Ret\n}\n\npublic is_paused(Arg0: &LeaseBook): bool {\nB0:\n\t0: MoveLoc[0](Arg0: &LeaseBook)\n\t1: ImmBorrowField[1](LeaseBook.is_paused: bool)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic leases_created(Arg0: &LeaseBook): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &LeaseBook)\n\t1: ImmBorrowField[5](LeaseBook.leases_created: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic licenses_locked(Arg0: &LeaseBook): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &LeaseBook)\n\t1: ImmBorrowField[6](LeaseBook.licenses_locked: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic version(Arg0: &LeaseBook): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &LeaseBook)\n\t1: ImmBorrowField[0](LeaseBook.version: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic current_version(): u64 {\nB0:\n\t0: LdConst[0](u64: 1)\n\t1: Ret\n}\n\npublic max_licenses_per_lease(): u64 {\nB0:\n\t0: LdConst[13](u64: 100)\n\t1: Ret\n}\n\npublic ms_per_lease_month(): u64 {\nB0:\n\t0: Call license::ms_per_lease_month(): u64\n\t1: Ret\n}\n\npublic lessee(Arg0: &Lease): address {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[3](Lease.lessee: address)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic license_ids(Arg0: &Lease): vector<ID> {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[4](Lease.license_ids: vector<ID>)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic origins(Arg0: &Lease): vector<ID> {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[8](Lease.origins: vector<ID>)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic term_months(Arg0: &Lease): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[9](Lease.term: LeaseTerm)\n\t2: Call license::lease_term_months(&LeaseTerm): u64\n\t3: Ret\n}\n\npublic start_ms(Arg0: &Lease): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[10](Lease.start_ms: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic end_ms(Arg0: &Lease): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[11](Lease.end_ms: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic locked_count(Arg0: &Lease): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[7](Lease.locked_count: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic legacy_lease_id(Arg0: &Lease): Option<u64> {\nB0:\n\t0: MoveLoc[0](Arg0: &Lease)\n\t1: ImmBorrowField[12](Lease.legacy_lease_id: Option<u64>)\n\t2: ReadRef\n\t3: Ret\n}\n\nConstants [\n\t0 => u64: 1\n\t1 => u64: 2\n\t2 => u64: 3\n\t3 => u64: 4\n\t4 => u64: 5\n\t5 => u64: 6\n\t6 => u64: 7\n\t7 => u64: 8\n\t8 => u64: 9\n\t9 => u64: 10\n\t10 => u64: 11\n\t11 => u64: 12\n\t12 => u64: 13\n\t13 => u64: 100\n]\n}\n"
+      },
+      {
+       "name": "license",
+       "disassembly": "// Move bytecode v7\nmodule 696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd.license {\nuse 0000000000000000000000000000000000000000000000000000000000000001::option;\nuse 0000000000000000000000000000000000000000000000000000000000000001::string;\nuse 0000000000000000000000000000000000000000000000000000000000000002::display;\nuse 0000000000000000000000000000000000000000000000000000000000000002::event;\nuse 0000000000000000000000000000000000000000000000000000000000000002::object;\nuse 0000000000000000000000000000000000000000000000000000000000000002::package;\nuse 0000000000000000000000000000000000000000000000000000000000000002::table;\nuse 0000000000000000000000000000000000000000000000000000000000000002::transfer;\nuse 0000000000000000000000000000000000000000000000000000000000000002::tx_context;\n\nstruct LICENSE has drop {\n\tdummy_field: bool\n}\n\nstruct License has key {\n\tid: UID,\n\tserial: u64,\n\torigin: ID,\n\tlock: Option<Lock>\n}\n\nstruct Lock has copy, drop, store {\n\tlease_id: ID,\n\tterm: LeaseTerm,\n\tend_ms: u64\n}\n\nstruct AdminCap has store, key {\n\tid: UID\n}\n\nstruct Registry has key {\n\tid: UID,\n\tversion: u64,\n\tnext_serial: u64,\n\tmigrated: u64,\n\torigins: Table<ID, ID>,\n\tserials: Table<u64, ID>\n}\n\nstruct MigrateEvent has copy, drop {\n\tv1_license_id: ID,\n\tv2_license_id: ID,\n\tserial: u64,\n\towner: address\n}\n\nstruct RegistryUpgradedEvent has copy, drop {\n\tfrom: u64,\n\tto: u64\n}\n\nenum LeaseTerm has copy, drop, store {\n\tSixMonths {  },\n\tTwelveMonths {  },\n\tEighteenMonths {  }\n}\n\ninit(Arg0: LICENSE, Arg1: &mut TxContext) {\nL2:\tloc0: Display<License>\nL3:\tloc1: vector<String>\nL4:\tloc2: Publisher\nL5:\tloc3: vector<String>\nB0:\n\t0: MoveLoc[0](Arg0: LICENSE)\n\t1: CopyLoc[1](Arg1: &mut TxContext)\n\t2: Call package::claim<LICENSE>(LICENSE, &mut TxContext): Publisher\n\t3: StLoc[4](loc2: Publisher)\n\t4: LdConst[14](vector<u8>: \"nam..)\n\t5: Call string::utf8(vector<u8>): String\n\t6: LdConst[15](vector<u8>: \"des..)\n\t7: Call string::utf8(vector<u8>): String\n\t8: LdConst[16](vector<u8>: \"ima..)\n\t9: Call string::utf8(vector<u8>): String\n\t10: LdConst[17](vector<u8>: \"lin..)\n\t11: Call string::utf8(vector<u8>): String\n\t12: LdConst[18](vector<u8>: \"pro..)\n\t13: Call string::utf8(vector<u8>): String\n\t14: LdConst[19](vector<u8>: \"cre..)\n\t15: Call string::utf8(vector<u8>): String\n\t16: VecPack(27, 6)\n\t17: StLoc[3](loc1: vector<String>)\n\t18: LdConst[20](vector<u8>: \"Swa..)\n\t19: Call string::utf8(vector<u8>): String\n\t20: LdConst[21](vector<u8>: \"Thi..)\n\t21: Call string::utf8(vector<u8>): String\n\t22: LdConst[22](vector<u8>: \"htt..)\n\t23: Call string::utf8(vector<u8>): String\n\t24: LdConst[23](vector<u8>: \"htt..)\n\t25: Call string::utf8(vector<u8>): String\n\t26: LdConst[24](vector<u8>: \"htt..)\n\t27: Call string::utf8(vector<u8>): String\n\t28: LdConst[25](vector<u8>: \"Swa..)\n\t29: Call string::utf8(vector<u8>): String\n\t30: VecPack(27, 6)\n\t31: StLoc[5](loc3: vector<String>)\n\t32: ImmBorrowLoc[4](loc2: Publisher)\n\t33: MoveLoc[3](loc1: vector<String>)\n\t34: MoveLoc[5](loc3: vector<String>)\n\t35: CopyLoc[1](Arg1: &mut TxContext)\n\t36: Call display::new_with_fields<License>(&Publisher, vector<String>, vector<String>, &mut TxContext): Display<License>\n\t37: StLoc[2](loc0: Display<License>)\n\t38: MutBorrowLoc[2](loc0: Display<License>)\n\t39: Call display::update_version<License>(&mut Display<License>)\n\t40: CopyLoc[1](Arg1: &mut TxContext)\n\t41: Call object::new(&mut TxContext): UID\n\t42: LdConst[11](u64: 1)\n\t43: LdConst[11](u64: 1)\n\t44: LdU64(0)\n\t45: CopyLoc[1](Arg1: &mut TxContext)\n\t46: Call table::new<ID, ID>(&mut TxContext): Table<ID, ID>\n\t47: CopyLoc[1](Arg1: &mut TxContext)\n\t48: Call table::new<u64, ID>(&mut TxContext): Table<u64, ID>\n\t49: Pack[4](Registry)\n\t50: Call transfer::share_object<Registry>(Registry)\n\t51: MoveLoc[4](loc2: Publisher)\n\t52: LdConst[10](address: 0xa2..)\n\t53: Call transfer::public_transfer<Publisher>(Publisher, address)\n\t54: MoveLoc[2](loc0: Display<License>)\n\t55: LdConst[10](address: 0xa2..)\n\t56: Call transfer::public_transfer<Display<License>>(Display<License>, address)\n\t57: MoveLoc[1](Arg1: &mut TxContext)\n\t58: Call object::new(&mut TxContext): UID\n\t59: Pack[3](AdminCap)\n\t60: LdConst[10](address: 0xa2..)\n\t61: Call transfer::public_transfer<AdminCap>(AdminCap, address)\n\t62: Ret\n}\n\nentry airdrop_many(Arg0: &AdminCap, Arg1: &mut Registry, Arg2: vector<address>, Arg3: vector<ID>, Arg4: vector<u64>, Arg5: &mut TxContext) {\nL6:\tloc0: u64\nL7:\tloc1: u64\nL8:\tloc2: address\nB0:\n\t0: ImmBorrowLoc[3](Arg3: vector<ID>)\n\t1: VecLen(13)\n\t2: StLoc[7](loc1: u64)\n\t3: CopyLoc[7](loc1: u64)\n\t4: LdU64(0)\n\t5: Gt\n\t6: BrFalse(8)\nB1:\n\t7: Branch(14)\nB2:\n\t8: MoveLoc[1](Arg1: &mut Registry)\n\t9: Pop\n\t10: MoveLoc[5](Arg5: &mut TxContext)\n\t11: Pop\n\t12: LdConst[0](u64: 2)\n\t13: Abort\nB3:\n\t14: CopyLoc[7](loc1: u64)\n\t15: LdConst[12](u64: 250)\n\t16: Le\n\t17: BrFalse(19)\nB4:\n\t18: Branch(25)\nB5:\n\t19: MoveLoc[1](Arg1: &mut Registry)\n\t20: Pop\n\t21: MoveLoc[5](Arg5: &mut TxContext)\n\t22: Pop\n\t23: LdConst[7](u64: 9)\n\t24: Abort\nB6:\n\t25: ImmBorrowLoc[2](Arg2: vector<address>)\n\t26: VecLen(42)\n\t27: CopyLoc[7](loc1: u64)\n\t28: Eq\n\t29: BrFalse(31)\nB7:\n\t30: Branch(37)\nB8:\n\t31: MoveLoc[1](Arg1: &mut Registry)\n\t32: Pop\n\t33: MoveLoc[5](Arg5: &mut TxContext)\n\t34: Pop\n\t35: LdConst[6](u64: 8)\n\t36: Abort\nB9:\n\t37: ImmBorrowLoc[4](Arg4: vector<u64>)\n\t38: VecLen(9)\n\t39: CopyLoc[7](loc1: u64)\n\t40: Eq\n\t41: BrFalse(43)\nB10:\n\t42: Branch(49)\nB11:\n\t43: MoveLoc[1](Arg1: &mut Registry)\n\t44: Pop\n\t45: MoveLoc[5](Arg5: &mut TxContext)\n\t46: Pop\n\t47: LdConst[6](u64: 8)\n\t48: Abort\nB12:\n\t49: LdU64(0)\n\t50: StLoc[6](loc0: u64)\nB13:\n\t51: CopyLoc[6](loc0: u64)\n\t52: CopyLoc[7](loc1: u64)\n\t53: Lt\n\t54: BrFalse(79)\nB14:\n\t55: ImmBorrowLoc[2](Arg2: vector<address>)\n\t56: CopyLoc[6](loc0: u64)\n\t57: VecImmBorrow(42)\n\t58: ReadRef\n\t59: StLoc[8](loc2: address)\n\t60: CopyLoc[1](Arg1: &mut Registry)\n\t61: ImmBorrowLoc[3](Arg3: vector<ID>)\n\t62: CopyLoc[6](loc0: u64)\n\t63: VecImmBorrow(13)\n\t64: ReadRef\n\t65: ImmBorrowLoc[4](Arg4: vector<u64>)\n\t66: CopyLoc[6](loc0: u64)\n\t67: VecImmBorrow(9)\n\t68: ReadRef\n\t69: CopyLoc[8](loc2: address)\n\t70: CopyLoc[5](Arg5: &mut TxContext)\n\t71: Call issue(&mut Registry, ID, u64, address, &mut TxContext): License\n\t72: MoveLoc[8](loc2: address)\n\t73: Call transfer::transfer<License>(License, address)\n\t74: MoveLoc[6](loc0: u64)\n\t75: LdU64(1)\n\t76: Add\n\t77: StLoc[6](loc0: u64)\n\t78: Branch(51)\nB15:\n\t79: MoveLoc[1](Arg1: &mut Registry)\n\t80: Pop\n\t81: MoveLoc[5](Arg5: &mut TxContext)\n\t82: Pop\n\t83: Ret\n}\n\npublic upgrade_registry(Arg0: &AdminCap, Arg1: &mut Registry) {\nL2:\tloc0: u64\nB0:\n\t0: CopyLoc[1](Arg1: &mut Registry)\n\t1: ImmBorrowField[0](Registry.version: u64)\n\t2: ReadRef\n\t3: StLoc[2](loc0: u64)\n\t4: CopyLoc[2](loc0: u64)\n\t5: LdConst[11](u64: 1)\n\t6: Lt\n\t7: BrFalse(9)\nB1:\n\t8: Branch(13)\nB2:\n\t9: MoveLoc[1](Arg1: &mut Registry)\n\t10: Pop\n\t11: LdConst[2](u64: 4)\n\t12: Abort\nB3:\n\t13: LdConst[11](u64: 1)\n\t14: MoveLoc[1](Arg1: &mut Registry)\n\t15: MutBorrowField[0](Registry.version: u64)\n\t16: WriteRef\n\t17: MoveLoc[2](loc0: u64)\n\t18: LdConst[11](u64: 1)\n\t19: Pack[6](RegistryUpgradedEvent)\n\t20: Call event::emit<RegistryUpgradedEvent>(RegistryUpgradedEvent)\n\t21: Ret\n}\n\npublic(friend) issue(Arg0: &mut Registry, Arg1: ID, Arg2: u64, Arg3: address, Arg4: &mut TxContext): License {\nL5:\tloc0: License\nL6:\tloc1: ID\nB0:\n\t0: CopyLoc[0](Arg0: &mut Registry)\n\t1: ImmBorrowField[0](Registry.version: u64)\n\t2: ReadRef\n\t3: LdConst[11](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(13)\nB2:\n\t7: MoveLoc[0](Arg0: &mut Registry)\n\t8: Pop\n\t9: MoveLoc[4](Arg4: &mut TxContext)\n\t10: Pop\n\t11: LdConst[1](u64: 3)\n\t12: Abort\nB3:\n\t13: CopyLoc[0](Arg0: &mut Registry)\n\t14: ImmBorrowField[1](Registry.origins: Table<ID, ID>)\n\t15: CopyLoc[1](Arg1: ID)\n\t16: Call table::contains<ID, ID>(&Table<ID, ID>, ID): bool\n\t17: Not\n\t18: BrFalse(20)\nB4:\n\t19: Branch(26)\nB5:\n\t20: MoveLoc[0](Arg0: &mut Registry)\n\t21: Pop\n\t22: MoveLoc[4](Arg4: &mut TxContext)\n\t23: Pop\n\t24: LdConst[5](u64: 7)\n\t25: Abort\nB6:\n\t26: CopyLoc[2](Arg2: u64)\n\t27: LdConst[11](u64: 1)\n\t28: Ge\n\t29: BrFalse(31)\nB7:\n\t30: Branch(37)\nB8:\n\t31: MoveLoc[0](Arg0: &mut Registry)\n\t32: Pop\n\t33: MoveLoc[4](Arg4: &mut TxContext)\n\t34: Pop\n\t35: LdConst[9](u64: 11)\n\t36: Abort\nB9:\n\t37: CopyLoc[0](Arg0: &mut Registry)\n\t38: ImmBorrowField[2](Registry.serials: Table<u64, ID>)\n\t39: CopyLoc[2](Arg2: u64)\n\t40: Call table::contains<u64, ID>(&Table<u64, ID>, u64): bool\n\t41: Not\n\t42: BrFalse(44)\nB10:\n\t43: Branch(50)\nB11:\n\t44: MoveLoc[0](Arg0: &mut Registry)\n\t45: Pop\n\t46: MoveLoc[4](Arg4: &mut TxContext)\n\t47: Pop\n\t48: LdConst[8](u64: 10)\n\t49: Abort\nB12:\n\t50: MoveLoc[4](Arg4: &mut TxContext)\n\t51: Call object::new(&mut TxContext): UID\n\t52: CopyLoc[2](Arg2: u64)\n\t53: CopyLoc[1](Arg1: ID)\n\t54: Call option::none<Lock>(): Option<Lock>\n\t55: Pack[1](License)\n\t56: StLoc[5](loc0: License)\n\t57: ImmBorrowLoc[5](loc0: License)\n\t58: Call object::id<License>(&License): ID\n\t59: StLoc[6](loc1: ID)\n\t60: CopyLoc[0](Arg0: &mut Registry)\n\t61: MutBorrowField[1](Registry.origins: Table<ID, ID>)\n\t62: CopyLoc[1](Arg1: ID)\n\t63: CopyLoc[6](loc1: ID)\n\t64: Call table::add<ID, ID>(&mut Table<ID, ID>, ID, ID)\n\t65: CopyLoc[0](Arg0: &mut Registry)\n\t66: MutBorrowField[2](Registry.serials: Table<u64, ID>)\n\t67: CopyLoc[2](Arg2: u64)\n\t68: CopyLoc[6](loc1: ID)\n\t69: Call table::add<u64, ID>(&mut Table<u64, ID>, u64, ID)\n\t70: CopyLoc[0](Arg0: &mut Registry)\n\t71: ImmBorrowField[3](Registry.migrated: u64)\n\t72: ReadRef\n\t73: LdU64(1)\n\t74: Add\n\t75: CopyLoc[0](Arg0: &mut Registry)\n\t76: MutBorrowField[3](Registry.migrated: u64)\n\t77: WriteRef\n\t78: CopyLoc[2](Arg2: u64)\n\t79: CopyLoc[0](Arg0: &mut Registry)\n\t80: ImmBorrowField[4](Registry.next_serial: u64)\n\t81: ReadRef\n\t82: Ge\n\t83: BrFalse(91)\nB13:\n\t84: CopyLoc[2](Arg2: u64)\n\t85: LdU64(1)\n\t86: Add\n\t87: MoveLoc[0](Arg0: &mut Registry)\n\t88: MutBorrowField[4](Registry.next_serial: u64)\n\t89: WriteRef\n\t90: Branch(93)\nB14:\n\t91: MoveLoc[0](Arg0: &mut Registry)\n\t92: Pop\nB15:\n\t93: MoveLoc[1](Arg1: ID)\n\t94: MoveLoc[6](loc1: ID)\n\t95: MoveLoc[2](Arg2: u64)\n\t96: MoveLoc[3](Arg3: address)\n\t97: Pack[5](MigrateEvent)\n\t98: Call event::emit<MigrateEvent>(MigrateEvent)\n\t99: MoveLoc[5](loc0: License)\n\t100: Ret\n}\n\npublic(friend) deliver(Arg0: License, Arg1: address) {\nB0:\n\t0: MoveLoc[0](Arg0: License)\n\t1: MoveLoc[1](Arg1: address)\n\t2: Call transfer::transfer<License>(License, address)\n\t3: Ret\n}\n\npublic(friend) receive_from(Arg0: &mut UID, Arg1: Receiving<License>): License {\nB0:\n\t0: MoveLoc[0](Arg0: &mut UID)\n\t1: MoveLoc[1](Arg1: Receiving<License>)\n\t2: Call transfer::receive<License>(&mut UID, Receiving<License>): License\n\t3: Ret\n}\n\npublic(friend) set_lock(Arg0: &mut License, Arg1: ID, Arg2: u64, Arg3: LeaseTerm) {\nL4:\tloc0: u64\nB0:\n\t0: CopyLoc[0](Arg0: &mut License)\n\t1: ImmBorrowField[5](License.lock: Option<Lock>)\n\t2: Call option::is_none<Lock>(&Option<Lock>): bool\n\t3: BrFalse(5)\nB1:\n\t4: Branch(9)\nB2:\n\t5: MoveLoc[0](Arg0: &mut License)\n\t6: Pop\n\t7: LdConst[3](u64: 5)\n\t8: Abort\nB3:\n\t9: ImmBorrowLoc[3](Arg3: LeaseTerm)\n\t10: MoveLoc[2](Arg2: u64)\n\t11: Call lease_term_end_ms(&LeaseTerm, u64): u64\n\t12: StLoc[4](loc0: u64)\n\t13: MoveLoc[1](Arg1: ID)\n\t14: MoveLoc[3](Arg3: LeaseTerm)\n\t15: MoveLoc[4](loc0: u64)\n\t16: Pack[2](Lock)\n\t17: Call option::some<Lock>(Lock): Option<Lock>\n\t18: MoveLoc[0](Arg0: &mut License)\n\t19: MutBorrowField[5](License.lock: Option<Lock>)\n\t20: WriteRef\n\t21: Ret\n}\n\npublic(friend) lease_term(Arg0: u64): Option<LeaseTerm> {\nL1:\tloc0: Option<LeaseTerm>\nL2:\tloc1: Option<LeaseTerm>\nL3:\tloc2: Option<LeaseTerm>\nB0:\n\t0: CopyLoc[0](Arg0: u64)\n\t1: LdU64(6)\n\t2: Eq\n\t3: BrFalse(8)\nB1:\n\t4: PackVariant(VariantHandleIndex(0))\n\t5: Call option::some<LeaseTerm>(LeaseTerm): Option<LeaseTerm>\n\t6: StLoc[3](loc2: Option<LeaseTerm>)\n\t7: Branch(30)\nB2:\n\t8: CopyLoc[0](Arg0: u64)\n\t9: LdU64(12)\n\t10: Eq\n\t11: BrFalse(16)\nB3:\n\t12: PackVariant(VariantHandleIndex(1))\n\t13: Call option::some<LeaseTerm>(LeaseTerm): Option<LeaseTerm>\n\t14: StLoc[2](loc1: Option<LeaseTerm>)\n\t15: Branch(28)\nB4:\n\t16: MoveLoc[0](Arg0: u64)\n\t17: LdU64(18)\n\t18: Eq\n\t19: BrFalse(24)\nB5:\n\t20: PackVariant(VariantHandleIndex(2))\n\t21: Call option::some<LeaseTerm>(LeaseTerm): Option<LeaseTerm>\n\t22: StLoc[1](loc0: Option<LeaseTerm>)\n\t23: Branch(26)\nB6:\n\t24: Call option::none<LeaseTerm>(): Option<LeaseTerm>\n\t25: StLoc[1](loc0: Option<LeaseTerm>)\nB7:\n\t26: MoveLoc[1](loc0: Option<LeaseTerm>)\n\t27: StLoc[2](loc1: Option<LeaseTerm>)\nB8:\n\t28: MoveLoc[2](loc1: Option<LeaseTerm>)\n\t29: StLoc[3](loc2: Option<LeaseTerm>)\nB9:\n\t30: MoveLoc[3](loc2: Option<LeaseTerm>)\n\t31: Ret\n}\n\npublic(friend) clear_lock(Arg0: &mut License, Arg1: ID) {\nB0:\n\t0: CopyLoc[0](Arg0: &mut License)\n\t1: ImmBorrowField[5](License.lock: Option<Lock>)\n\t2: Call option::is_some<Lock>(&Option<Lock>): bool\n\t3: BrFalse(5)\nB1:\n\t4: Branch(9)\nB2:\n\t5: MoveLoc[0](Arg0: &mut License)\n\t6: Pop\n\t7: LdConst[4](u64: 6)\n\t8: Abort\nB3:\n\t9: CopyLoc[0](Arg0: &mut License)\n\t10: ImmBorrowField[5](License.lock: Option<Lock>)\n\t11: Call option::borrow<Lock>(&Option<Lock>): &Lock\n\t12: ImmBorrowField[6](Lock.lease_id: ID)\n\t13: ReadRef\n\t14: MoveLoc[1](Arg1: ID)\n\t15: Eq\n\t16: BrFalse(18)\nB4:\n\t17: Branch(22)\nB5:\n\t18: MoveLoc[0](Arg0: &mut License)\n\t19: Pop\n\t20: LdConst[4](u64: 6)\n\t21: Abort\nB6:\n\t22: Call option::none<Lock>(): Option<Lock>\n\t23: MoveLoc[0](Arg0: &mut License)\n\t24: MutBorrowField[5](License.lock: Option<Lock>)\n\t25: WriteRef\n\t26: Ret\n}\n\npublic serial(Arg0: &License): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &License)\n\t1: ImmBorrowField[7](License.serial: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic origin(Arg0: &License): ID {\nB0:\n\t0: MoveLoc[0](Arg0: &License)\n\t1: ImmBorrowField[8](License.origin: ID)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic is_locked(Arg0: &License): bool {\nB0:\n\t0: MoveLoc[0](Arg0: &License)\n\t1: ImmBorrowField[5](License.lock: Option<Lock>)\n\t2: Call option::is_some<Lock>(&Option<Lock>): bool\n\t3: Ret\n}\n\npublic lock_lease_id(Arg0: &License): Option<ID> {\nL1:\tloc0: Option<ID>\nB0:\n\t0: CopyLoc[0](Arg0: &License)\n\t1: ImmBorrowField[5](License.lock: Option<Lock>)\n\t2: Call option::is_some<Lock>(&Option<Lock>): bool\n\t3: BrFalse(12)\nB1:\n\t4: MoveLoc[0](Arg0: &License)\n\t5: ImmBorrowField[5](License.lock: Option<Lock>)\n\t6: Call option::borrow<Lock>(&Option<Lock>): &Lock\n\t7: ImmBorrowField[6](Lock.lease_id: ID)\n\t8: ReadRef\n\t9: Call option::some<ID>(ID): Option<ID>\n\t10: StLoc[1](loc0: Option<ID>)\n\t11: Branch(16)\nB2:\n\t12: MoveLoc[0](Arg0: &License)\n\t13: Pop\n\t14: Call option::none<ID>(): Option<ID>\n\t15: StLoc[1](loc0: Option<ID>)\nB3:\n\t16: MoveLoc[1](loc0: Option<ID>)\n\t17: Ret\n}\n\npublic lock_end_ms(Arg0: &License): Option<u64> {\nL1:\tloc0: Option<u64>\nB0:\n\t0: CopyLoc[0](Arg0: &License)\n\t1: ImmBorrowField[5](License.lock: Option<Lock>)\n\t2: Call option::is_some<Lock>(&Option<Lock>): bool\n\t3: BrFalse(12)\nB1:\n\t4: MoveLoc[0](Arg0: &License)\n\t5: ImmBorrowField[5](License.lock: Option<Lock>)\n\t6: Call option::borrow<Lock>(&Option<Lock>): &Lock\n\t7: ImmBorrowField[9](Lock.end_ms: u64)\n\t8: ReadRef\n\t9: Call option::some<u64>(u64): Option<u64>\n\t10: StLoc[1](loc0: Option<u64>)\n\t11: Branch(16)\nB2:\n\t12: MoveLoc[0](Arg0: &License)\n\t13: Pop\n\t14: Call option::none<u64>(): Option<u64>\n\t15: StLoc[1](loc0: Option<u64>)\nB3:\n\t16: MoveLoc[1](loc0: Option<u64>)\n\t17: Ret\n}\n\npublic lock_term_months(Arg0: &License): Option<u64> {\nL1:\tloc0: Option<u64>\nB0:\n\t0: CopyLoc[0](Arg0: &License)\n\t1: ImmBorrowField[5](License.lock: Option<Lock>)\n\t2: Call option::is_some<Lock>(&Option<Lock>): bool\n\t3: BrFalse(12)\nB1:\n\t4: MoveLoc[0](Arg0: &License)\n\t5: ImmBorrowField[5](License.lock: Option<Lock>)\n\t6: Call option::borrow<Lock>(&Option<Lock>): &Lock\n\t7: ImmBorrowField[10](Lock.term: LeaseTerm)\n\t8: Call lease_term_months(&LeaseTerm): u64\n\t9: Call option::some<u64>(u64): Option<u64>\n\t10: StLoc[1](loc0: Option<u64>)\n\t11: Branch(16)\nB2:\n\t12: MoveLoc[0](Arg0: &License)\n\t13: Pop\n\t14: Call option::none<u64>(): Option<u64>\n\t15: StLoc[1](loc0: Option<u64>)\nB3:\n\t16: MoveLoc[1](loc0: Option<u64>)\n\t17: Ret\n}\n\npublic lease_term_months(Arg0: &LeaseTerm): u64 {\nL1:\tloc0: u64\nL2:\tloc1: &LeaseTerm\nB0:\n\t0: MoveLoc[0](Arg0: &LeaseTerm)\n\t1: StLoc[2](loc1: &LeaseTerm)\n\t2: CopyLoc[2](loc1: &LeaseTerm)\n\t3: VariantSwitch(VariantJumpTableIndex(0))\nB1:\n\t4: MoveLoc[2](loc1: &LeaseTerm)\n\t5: UnpackVariantImmRef(VariantHandleIndex(0))\n\t6: LdU64(6)\n\t7: StLoc[1](loc0: u64)\n\t8: Branch(18)\nB2:\n\t9: MoveLoc[2](loc1: &LeaseTerm)\n\t10: UnpackVariantImmRef(VariantHandleIndex(1))\n\t11: LdU64(12)\n\t12: StLoc[1](loc0: u64)\n\t13: Branch(18)\nB3:\n\t14: MoveLoc[2](loc1: &LeaseTerm)\n\t15: UnpackVariantImmRef(VariantHandleIndex(2))\n\t16: LdU64(18)\n\t17: StLoc[1](loc0: u64)\nB4:\n\t18: MoveLoc[1](loc0: u64)\n\t19: Ret\nJump tables:\n[0]:\tvariant_switch LeaseTerm {\n\t\tVariant0 => jump 4\n\t\tVariant1 => jump 9\n\t\tVariant2 => jump 14\n\t}\n}\n\npublic lease_term_end_ms(Arg0: &LeaseTerm, Arg1: u64): u64 {\nB0:\n\t0: MoveLoc[1](Arg1: u64)\n\t1: MoveLoc[0](Arg0: &LeaseTerm)\n\t2: Call lease_term_months(&LeaseTerm): u64\n\t3: LdConst[13](u64: 2592..)\n\t4: Mul\n\t5: Add\n\t6: Ret\n}\n\npublic ms_per_lease_month(): u64 {\nB0:\n\t0: LdConst[13](u64: 2592..)\n\t1: Ret\n}\n\npublic migrated(Arg0: &Registry): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Registry)\n\t1: ImmBorrowField[3](Registry.migrated: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic issued_for(Arg0: &Registry, Arg1: ID): Option<ID> {\nL2:\tloc0: Option<ID>\nB0:\n\t0: CopyLoc[0](Arg0: &Registry)\n\t1: ImmBorrowField[1](Registry.origins: Table<ID, ID>)\n\t2: CopyLoc[1](Arg1: ID)\n\t3: Call table::contains<ID, ID>(&Table<ID, ID>, ID): bool\n\t4: BrFalse(13)\nB1:\n\t5: MoveLoc[0](Arg0: &Registry)\n\t6: ImmBorrowField[1](Registry.origins: Table<ID, ID>)\n\t7: MoveLoc[1](Arg1: ID)\n\t8: Call table::borrow<ID, ID>(&Table<ID, ID>, ID): &ID\n\t9: ReadRef\n\t10: Call option::some<ID>(ID): Option<ID>\n\t11: StLoc[2](loc0: Option<ID>)\n\t12: Branch(17)\nB2:\n\t13: MoveLoc[0](Arg0: &Registry)\n\t14: Pop\n\t15: Call option::none<ID>(): Option<ID>\n\t16: StLoc[2](loc0: Option<ID>)\nB3:\n\t17: MoveLoc[2](loc0: Option<ID>)\n\t18: Ret\n}\n\npublic next_serial(Arg0: &Registry): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Registry)\n\t1: ImmBorrowField[4](Registry.next_serial: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic license_with_serial(Arg0: &Registry, Arg1: u64): Option<ID> {\nL2:\tloc0: Option<ID>\nB0:\n\t0: CopyLoc[0](Arg0: &Registry)\n\t1: ImmBorrowField[2](Registry.serials: Table<u64, ID>)\n\t2: CopyLoc[1](Arg1: u64)\n\t3: Call table::contains<u64, ID>(&Table<u64, ID>, u64): bool\n\t4: BrFalse(13)\nB1:\n\t5: MoveLoc[0](Arg0: &Registry)\n\t6: ImmBorrowField[2](Registry.serials: Table<u64, ID>)\n\t7: MoveLoc[1](Arg1: u64)\n\t8: Call table::borrow<u64, ID>(&Table<u64, ID>, u64): &ID\n\t9: ReadRef\n\t10: Call option::some<ID>(ID): Option<ID>\n\t11: StLoc[2](loc0: Option<ID>)\n\t12: Branch(17)\nB2:\n\t13: MoveLoc[0](Arg0: &Registry)\n\t14: Pop\n\t15: Call option::none<ID>(): Option<ID>\n\t16: StLoc[2](loc0: Option<ID>)\nB3:\n\t17: MoveLoc[2](loc0: Option<ID>)\n\t18: Ret\n}\n\npublic max_airdrop_batch(): u64 {\nB0:\n\t0: LdConst[12](u64: 250)\n\t1: Ret\n}\n\npublic version(Arg0: &Registry): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Registry)\n\t1: ImmBorrowField[0](Registry.version: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic current_version(): u64 {\nB0:\n\t0: LdConst[11](u64: 1)\n\t1: Ret\n}\n\nConstants [\n\t0 => u64: 2\n\t1 => u64: 3\n\t2 => u64: 4\n\t3 => u64: 5\n\t4 => u64: 6\n\t5 => u64: 7\n\t6 => u64: 8\n\t7 => u64: 9\n\t8 => u64: 10\n\t9 => u64: 11\n\t10 => address: 0xa2668b3f6ed6c95ccacd471cb1f4351b9ae4b11d865c45a764332cbcafc6b3f3\n\t11 => u64: 1\n\t12 => u64: 250\n\t13 => u64: 2592000000\n\t14 => vector<u8>: \"name\" // interpreted as UTF8 string\n\t15 => vector<u8>: \"description\" // interpreted as UTF8 string\n\t16 => vector<u8>: \"image_url\" // interpreted as UTF8 string\n\t17 => vector<u8>: \"link\" // interpreted as UTF8 string\n\t18 => vector<u8>: \"project_url\" // interpreted as UTF8 string\n\t19 => vector<u8>: \"creator\" // interpreted as UTF8 string\n\t20 => vector<u8>: \"Swarm Network Agent License #{serial}\" // interpreted as UTF8 string\n\t21 => vector<u8>: \"This Agent License grants you access to exclusive Swarm Network products.\" // interpreted as UTF8 string\n\t22 => vector<u8>: \"https://webserver-production-2722.up.railway.app/example/license.png\" // interpreted as UTF8 string\n\t23 => vector<u8>: \"https://swarmnetwork.ai/agent-license\" // interpreted as UTF8 string\n\t24 => vector<u8>: \"https://swarmnetwork.ai\" // interpreted as UTF8 string\n\t25 => vector<u8>: \"Swarm Network\" // interpreted as UTF8 string\n]\n}\n"
+      },
+      {
+       "name": "marketplace",
+       "disassembly": "// Move bytecode v7\nmodule 696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd.marketplace {\nuse 0000000000000000000000000000000000000000000000000000000000000002::coin;\nuse 0000000000000000000000000000000000000000000000000000000000000002::event;\nuse 0000000000000000000000000000000000000000000000000000000000000002::object;\nuse 0000000000000000000000000000000000000000000000000000000000000002::transfer;\nuse 0000000000000000000000000000000000000000000000000000000000000002::tx_context;\nuse 696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd::license;\nuse 121cf2f9b22801334e79598e221b52f6bd9349c3775ed2973ab6fc695fad63e8::swarm_network_token;\n\nstruct Marketplace has key {\n\tid: UID,\n\tversion: u64,\n\tcommission_bp: u64,\n\ttreasury: address,\n\tlistings_open: u64,\n\tvolume: u64,\n\tcommission_earned: u64,\n\tis_paused: bool\n}\n\nstruct Listing has key {\n\tid: UID,\n\tlicense_id: ID,\n\torigin: ID,\n\tprice: u64,\n\tcommission_bp: u64,\n\tseller: address\n}\n\nstruct MarketplaceCreatedEvent has copy, drop {\n\tmarketplace_id: ID,\n\ttreasury: address,\n\tcommission_bp: u64\n}\n\nstruct ListedEvent has copy, drop {\n\tlisting_id: ID,\n\tlicense_id: ID,\n\torigin: ID,\n\tseller: address,\n\tprice: u64,\n\tcommission_bp: u64\n}\n\nstruct DelistedEvent has copy, drop {\n\tlisting_id: ID,\n\tlicense_id: ID,\n\torigin: ID,\n\tseller: address\n}\n\nstruct SoldEvent has copy, drop {\n\tlisting_id: ID,\n\tlicense_id: ID,\n\torigin: ID,\n\tseller: address,\n\tbuyer: address,\n\tprice: u64,\n\tcommission: u64,\n\tseller_proceeds: u64\n}\n\nstruct CommissionChangedEvent has copy, drop {\n\tmarketplace_id: ID,\n\tfrom_bp: u64,\n\tto_bp: u64\n}\n\nstruct TreasuryChangedEvent has copy, drop {\n\tmarketplace_id: ID,\n\tfrom: address,\n\tto: address\n}\n\nstruct MarketPausedEvent has copy, drop {\n\tmarketplace_id: ID,\n\tis_paused: bool\n}\n\nstruct MarketplaceUpgradedEvent has copy, drop {\n\tmarketplace_id: ID,\n\tfrom: u64,\n\tto: u64\n}\n\ninit(Arg0: &mut TxContext) {\nL1:\tloc0: Marketplace\nB0:\n\t0: MoveLoc[0](Arg0: &mut TxContext)\n\t1: Call object::new(&mut TxContext): UID\n\t2: LdConst[0](u64: 1)\n\t3: LdConst[10](u64: 250)\n\t4: LdConst[9](address: 0xa2..)\n\t5: LdU64(0)\n\t6: LdU64(0)\n\t7: LdU64(0)\n\t8: LdFalse\n\t9: Pack[0](Marketplace)\n\t10: StLoc[1](loc0: Marketplace)\n\t11: ImmBorrowLoc[1](loc0: Marketplace)\n\t12: Call object::id<Marketplace>(&Marketplace): ID\n\t13: LdConst[9](address: 0xa2..)\n\t14: LdConst[10](u64: 250)\n\t15: Pack[2](MarketplaceCreatedEvent)\n\t16: Call event::emit<MarketplaceCreatedEvent>(MarketplaceCreatedEvent)\n\t17: MoveLoc[1](loc0: Marketplace)\n\t18: Call transfer::share_object<Marketplace>(Marketplace)\n\t19: Ret\n}\n\npublic set_commission_bp(Arg0: &AdminCap, Arg1: &mut Marketplace, Arg2: u64) {\nL3:\tloc0: u64\nB0:\n\t0: CopyLoc[1](Arg1: &mut Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(11)\nB2:\n\t7: MoveLoc[1](Arg1: &mut Marketplace)\n\t8: Pop\n\t9: LdConst[0](u64: 1)\n\t10: Abort\nB3:\n\t11: CopyLoc[2](Arg2: u64)\n\t12: LdConst[12](u64: 1000)\n\t13: Le\n\t14: BrFalse(16)\nB4:\n\t15: Branch(20)\nB5:\n\t16: MoveLoc[1](Arg1: &mut Marketplace)\n\t17: Pop\n\t18: LdConst[5](u64: 6)\n\t19: Abort\nB6:\n\t20: CopyLoc[1](Arg1: &mut Marketplace)\n\t21: ImmBorrowField[1](Marketplace.commission_bp: u64)\n\t22: ReadRef\n\t23: StLoc[3](loc0: u64)\n\t24: CopyLoc[2](Arg2: u64)\n\t25: CopyLoc[1](Arg1: &mut Marketplace)\n\t26: MutBorrowField[1](Marketplace.commission_bp: u64)\n\t27: WriteRef\n\t28: MoveLoc[1](Arg1: &mut Marketplace)\n\t29: FreezeRef\n\t30: Call object::id<Marketplace>(&Marketplace): ID\n\t31: MoveLoc[3](loc0: u64)\n\t32: MoveLoc[2](Arg2: u64)\n\t33: Pack[6](CommissionChangedEvent)\n\t34: Call event::emit<CommissionChangedEvent>(CommissionChangedEvent)\n\t35: Ret\n}\n\npublic set_treasury(Arg0: &AdminCap, Arg1: &mut Marketplace, Arg2: address) {\nL3:\tloc0: address\nB0:\n\t0: CopyLoc[1](Arg1: &mut Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(11)\nB2:\n\t7: MoveLoc[1](Arg1: &mut Marketplace)\n\t8: Pop\n\t9: LdConst[0](u64: 1)\n\t10: Abort\nB3:\n\t11: CopyLoc[1](Arg1: &mut Marketplace)\n\t12: ImmBorrowField[2](Marketplace.treasury: address)\n\t13: ReadRef\n\t14: StLoc[3](loc0: address)\n\t15: CopyLoc[2](Arg2: address)\n\t16: CopyLoc[1](Arg1: &mut Marketplace)\n\t17: MutBorrowField[2](Marketplace.treasury: address)\n\t18: WriteRef\n\t19: MoveLoc[1](Arg1: &mut Marketplace)\n\t20: FreezeRef\n\t21: Call object::id<Marketplace>(&Marketplace): ID\n\t22: MoveLoc[3](loc0: address)\n\t23: MoveLoc[2](Arg2: address)\n\t24: Pack[7](TreasuryChangedEvent)\n\t25: Call event::emit<TreasuryChangedEvent>(TreasuryChangedEvent)\n\t26: Ret\n}\n\npublic set_paused(Arg0: &AdminCap, Arg1: &mut Marketplace, Arg2: bool) {\nB0:\n\t0: CopyLoc[1](Arg1: &mut Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(11)\nB2:\n\t7: MoveLoc[1](Arg1: &mut Marketplace)\n\t8: Pop\n\t9: LdConst[0](u64: 1)\n\t10: Abort\nB3:\n\t11: CopyLoc[2](Arg2: bool)\n\t12: CopyLoc[1](Arg1: &mut Marketplace)\n\t13: MutBorrowField[3](Marketplace.is_paused: bool)\n\t14: WriteRef\n\t15: MoveLoc[1](Arg1: &mut Marketplace)\n\t16: FreezeRef\n\t17: Call object::id<Marketplace>(&Marketplace): ID\n\t18: MoveLoc[2](Arg2: bool)\n\t19: Pack[8](MarketPausedEvent)\n\t20: Call event::emit<MarketPausedEvent>(MarketPausedEvent)\n\t21: Ret\n}\n\npublic upgrade_marketplace(Arg0: &AdminCap, Arg1: &mut Marketplace) {\nL2:\tloc0: u64\nB0:\n\t0: CopyLoc[1](Arg1: &mut Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: StLoc[2](loc0: u64)\n\t4: CopyLoc[2](loc0: u64)\n\t5: LdConst[0](u64: 1)\n\t6: Lt\n\t7: BrFalse(9)\nB1:\n\t8: Branch(13)\nB2:\n\t9: MoveLoc[1](Arg1: &mut Marketplace)\n\t10: Pop\n\t11: LdConst[6](u64: 7)\n\t12: Abort\nB3:\n\t13: LdConst[0](u64: 1)\n\t14: CopyLoc[1](Arg1: &mut Marketplace)\n\t15: MutBorrowField[0](Marketplace.version: u64)\n\t16: WriteRef\n\t17: MoveLoc[1](Arg1: &mut Marketplace)\n\t18: FreezeRef\n\t19: Call object::id<Marketplace>(&Marketplace): ID\n\t20: MoveLoc[2](loc0: u64)\n\t21: LdConst[0](u64: 1)\n\t22: Pack[9](MarketplaceUpgradedEvent)\n\t23: Call event::emit<MarketplaceUpgradedEvent>(MarketplaceUpgradedEvent)\n\t24: Ret\n}\n\nentry list(Arg0: &mut Marketplace, Arg1: License, Arg2: u64, Arg3: &mut TxContext) {\nL4:\tloc0: ID\nL5:\tloc1: Listing\nL6:\tloc2: ID\nB0:\n\t0: CopyLoc[0](Arg0: &mut Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(13)\nB2:\n\t7: MoveLoc[0](Arg0: &mut Marketplace)\n\t8: Pop\n\t9: MoveLoc[3](Arg3: &mut TxContext)\n\t10: Pop\n\t11: LdConst[0](u64: 1)\n\t12: Abort\nB3:\n\t13: CopyLoc[0](Arg0: &mut Marketplace)\n\t14: ImmBorrowField[3](Marketplace.is_paused: bool)\n\t15: ReadRef\n\t16: Not\n\t17: BrFalse(19)\nB4:\n\t18: Branch(25)\nB5:\n\t19: MoveLoc[0](Arg0: &mut Marketplace)\n\t20: Pop\n\t21: MoveLoc[3](Arg3: &mut TxContext)\n\t22: Pop\n\t23: LdConst[1](u64: 2)\n\t24: Abort\nB6:\n\t25: CopyLoc[2](Arg2: u64)\n\t26: LdU64(0)\n\t27: Gt\n\t28: BrFalse(30)\nB7:\n\t29: Branch(36)\nB8:\n\t30: MoveLoc[0](Arg0: &mut Marketplace)\n\t31: Pop\n\t32: MoveLoc[3](Arg3: &mut TxContext)\n\t33: Pop\n\t34: LdConst[2](u64: 3)\n\t35: Abort\nB9:\n\t36: ImmBorrowLoc[1](Arg1: License)\n\t37: Call license::is_locked(&License): bool\n\t38: Not\n\t39: BrFalse(41)\nB10:\n\t40: Branch(47)\nB11:\n\t41: MoveLoc[0](Arg0: &mut Marketplace)\n\t42: Pop\n\t43: MoveLoc[3](Arg3: &mut TxContext)\n\t44: Pop\n\t45: LdConst[7](u64: 8)\n\t46: Abort\nB12:\n\t47: ImmBorrowLoc[1](Arg1: License)\n\t48: Call object::id<License>(&License): ID\n\t49: StLoc[4](loc0: ID)\n\t50: ImmBorrowLoc[1](Arg1: License)\n\t51: Call license::origin(&License): ID\n\t52: StLoc[6](loc2: ID)\n\t53: CopyLoc[3](Arg3: &mut TxContext)\n\t54: Call object::new(&mut TxContext): UID\n\t55: CopyLoc[4](loc0: ID)\n\t56: CopyLoc[6](loc2: ID)\n\t57: CopyLoc[2](Arg2: u64)\n\t58: CopyLoc[0](Arg0: &mut Marketplace)\n\t59: ImmBorrowField[1](Marketplace.commission_bp: u64)\n\t60: ReadRef\n\t61: CopyLoc[3](Arg3: &mut TxContext)\n\t62: FreezeRef\n\t63: Call tx_context::sender(&TxContext): address\n\t64: Pack[1](Listing)\n\t65: StLoc[5](loc1: Listing)\n\t66: CopyLoc[0](Arg0: &mut Marketplace)\n\t67: ImmBorrowField[4](Marketplace.listings_open: u64)\n\t68: ReadRef\n\t69: LdU64(1)\n\t70: Add\n\t71: MoveLoc[0](Arg0: &mut Marketplace)\n\t72: MutBorrowField[4](Marketplace.listings_open: u64)\n\t73: WriteRef\n\t74: ImmBorrowLoc[5](loc1: Listing)\n\t75: Call object::id<Listing>(&Listing): ID\n\t76: MoveLoc[4](loc0: ID)\n\t77: MoveLoc[6](loc2: ID)\n\t78: MoveLoc[3](Arg3: &mut TxContext)\n\t79: FreezeRef\n\t80: Call tx_context::sender(&TxContext): address\n\t81: MoveLoc[2](Arg2: u64)\n\t82: ImmBorrowLoc[5](loc1: Listing)\n\t83: ImmBorrowField[5](Listing.commission_bp: u64)\n\t84: ReadRef\n\t85: Pack[3](ListedEvent)\n\t86: Call event::emit<ListedEvent>(ListedEvent)\n\t87: MoveLoc[1](Arg1: License)\n\t88: ImmBorrowLoc[5](loc1: Listing)\n\t89: Call object::id_address<Listing>(&Listing): address\n\t90: Call license::deliver(License, address)\n\t91: MoveLoc[5](loc1: Listing)\n\t92: Call transfer::share_object<Listing>(Listing)\n\t93: Ret\n}\n\nentry delist(Arg0: &mut Marketplace, Arg1: Listing, Arg2: Receiving<License>, Arg3: &TxContext) {\nL4:\tloc0: UID\nL5:\tloc1: License\nL6:\tloc2: ID\nL7:\tloc3: ID\nL8:\tloc4: ID\nL9:\tloc5: address\nB0:\n\t0: MoveLoc[1](Arg1: Listing)\n\t1: Unpack[1](Listing)\n\t2: StLoc[9](loc5: address)\n\t3: Pop\n\t4: Pop\n\t5: StLoc[8](loc4: ID)\n\t6: StLoc[6](loc2: ID)\n\t7: StLoc[4](loc0: UID)\n\t8: MoveLoc[3](Arg3: &TxContext)\n\t9: Call tx_context::sender(&TxContext): address\n\t10: CopyLoc[9](loc5: address)\n\t11: Eq\n\t12: BrFalse(14)\nB1:\n\t13: Branch(18)\nB2:\n\t14: MoveLoc[0](Arg0: &mut Marketplace)\n\t15: Pop\n\t16: LdConst[4](u64: 5)\n\t17: Abort\nB3:\n\t18: MutBorrowLoc[4](loc0: UID)\n\t19: MoveLoc[2](Arg2: Receiving<License>)\n\t20: Call license::receive_from(&mut UID, Receiving<License>): License\n\t21: StLoc[5](loc1: License)\n\t22: ImmBorrowLoc[5](loc1: License)\n\t23: Call object::id<License>(&License): ID\n\t24: CopyLoc[6](loc2: ID)\n\t25: Eq\n\t26: BrFalse(28)\nB4:\n\t27: Branch(32)\nB5:\n\t28: MoveLoc[0](Arg0: &mut Marketplace)\n\t29: Pop\n\t30: LdConst[8](u64: 9)\n\t31: Abort\nB6:\n\t32: MoveLoc[5](loc1: License)\n\t33: CopyLoc[9](loc5: address)\n\t34: Call license::deliver(License, address)\n\t35: CopyLoc[0](Arg0: &mut Marketplace)\n\t36: ImmBorrowField[4](Marketplace.listings_open: u64)\n\t37: ReadRef\n\t38: LdU64(1)\n\t39: Sub\n\t40: MoveLoc[0](Arg0: &mut Marketplace)\n\t41: MutBorrowField[4](Marketplace.listings_open: u64)\n\t42: WriteRef\n\t43: ImmBorrowLoc[4](loc0: UID)\n\t44: Call object::uid_to_inner(&UID): ID\n\t45: StLoc[7](loc3: ID)\n\t46: MoveLoc[4](loc0: UID)\n\t47: Call object::delete(UID)\n\t48: MoveLoc[7](loc3: ID)\n\t49: MoveLoc[6](loc2: ID)\n\t50: MoveLoc[8](loc4: ID)\n\t51: MoveLoc[9](loc5: address)\n\t52: Pack[4](DelistedEvent)\n\t53: Call event::emit<DelistedEvent>(DelistedEvent)\n\t54: Ret\n}\n\nentry buy(Arg0: &mut Marketplace, Arg1: Listing, Arg2: Receiving<License>, Arg3: Coin<SWARM_NETWORK_TOKEN>, Arg4: &mut TxContext) {\nL5:\tloc0: u64\nL6:\tloc1: u64\nL7:\tloc2: UID\nL8:\tloc3: License\nL9:\tloc4: ID\nL10:\tloc5: ID\nL11:\tloc6: ID\nL12:\tloc7: u64\nL13:\tloc8: address\nL14:\tloc9: u64\nB0:\n\t0: CopyLoc[0](Arg0: &mut Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: LdConst[0](u64: 1)\n\t4: Eq\n\t5: BrFalse(7)\nB1:\n\t6: Branch(13)\nB2:\n\t7: MoveLoc[0](Arg0: &mut Marketplace)\n\t8: Pop\n\t9: MoveLoc[4](Arg4: &mut TxContext)\n\t10: Pop\n\t11: LdConst[0](u64: 1)\n\t12: Abort\nB3:\n\t13: CopyLoc[0](Arg0: &mut Marketplace)\n\t14: ImmBorrowField[3](Marketplace.is_paused: bool)\n\t15: ReadRef\n\t16: Not\n\t17: BrFalse(19)\nB4:\n\t18: Branch(25)\nB5:\n\t19: MoveLoc[0](Arg0: &mut Marketplace)\n\t20: Pop\n\t21: MoveLoc[4](Arg4: &mut TxContext)\n\t22: Pop\n\t23: LdConst[1](u64: 2)\n\t24: Abort\nB6:\n\t25: MoveLoc[1](Arg1: Listing)\n\t26: Unpack[1](Listing)\n\t27: StLoc[13](loc8: address)\n\t28: StLoc[6](loc1: u64)\n\t29: StLoc[12](loc7: u64)\n\t30: StLoc[11](loc6: ID)\n\t31: StLoc[9](loc4: ID)\n\t32: StLoc[7](loc2: UID)\n\t33: ImmBorrowLoc[3](Arg3: Coin<SWARM_NETWORK_TOKEN>)\n\t34: Call coin::value<SWARM_NETWORK_TOKEN>(&Coin<SWARM_NETWORK_TOKEN>): u64\n\t35: CopyLoc[12](loc7: u64)\n\t36: Eq\n\t37: BrFalse(39)\nB7:\n\t38: Branch(45)\nB8:\n\t39: MoveLoc[0](Arg0: &mut Marketplace)\n\t40: Pop\n\t41: MoveLoc[4](Arg4: &mut TxContext)\n\t42: Pop\n\t43: LdConst[3](u64: 4)\n\t44: Abort\nB9:\n\t45: CopyLoc[12](loc7: u64)\n\t46: MoveLoc[6](loc1: u64)\n\t47: Call commission_for(u64, u64): u64\n\t48: StLoc[5](loc0: u64)\n\t49: CopyLoc[12](loc7: u64)\n\t50: CopyLoc[5](loc0: u64)\n\t51: Sub\n\t52: StLoc[14](loc9: u64)\n\t53: CopyLoc[5](loc0: u64)\n\t54: LdU64(0)\n\t55: Gt\n\t56: BrFalse(65)\nB10:\n\t57: MutBorrowLoc[3](Arg3: Coin<SWARM_NETWORK_TOKEN>)\n\t58: CopyLoc[5](loc0: u64)\n\t59: CopyLoc[4](Arg4: &mut TxContext)\n\t60: Call coin::split<SWARM_NETWORK_TOKEN>(&mut Coin<SWARM_NETWORK_TOKEN>, u64, &mut TxContext): Coin<SWARM_NETWORK_TOKEN>\n\t61: CopyLoc[0](Arg0: &mut Marketplace)\n\t62: ImmBorrowField[2](Marketplace.treasury: address)\n\t63: ReadRef\n\t64: Call transfer::public_transfer<Coin<SWARM_NETWORK_TOKEN>>(Coin<SWARM_NETWORK_TOKEN>, address)\nB11:\n\t65: MoveLoc[3](Arg3: Coin<SWARM_NETWORK_TOKEN>)\n\t66: CopyLoc[13](loc8: address)\n\t67: Call transfer::public_transfer<Coin<SWARM_NETWORK_TOKEN>>(Coin<SWARM_NETWORK_TOKEN>, address)\n\t68: MutBorrowLoc[7](loc2: UID)\n\t69: MoveLoc[2](Arg2: Receiving<License>)\n\t70: Call license::receive_from(&mut UID, Receiving<License>): License\n\t71: StLoc[8](loc3: License)\n\t72: ImmBorrowLoc[8](loc3: License)\n\t73: Call object::id<License>(&License): ID\n\t74: CopyLoc[9](loc4: ID)\n\t75: Eq\n\t76: BrFalse(78)\nB12:\n\t77: Branch(84)\nB13:\n\t78: MoveLoc[0](Arg0: &mut Marketplace)\n\t79: Pop\n\t80: MoveLoc[4](Arg4: &mut TxContext)\n\t81: Pop\n\t82: LdConst[8](u64: 9)\n\t83: Abort\nB14:\n\t84: MoveLoc[8](loc3: License)\n\t85: CopyLoc[4](Arg4: &mut TxContext)\n\t86: FreezeRef\n\t87: Call tx_context::sender(&TxContext): address\n\t88: Call license::deliver(License, address)\n\t89: CopyLoc[0](Arg0: &mut Marketplace)\n\t90: ImmBorrowField[4](Marketplace.listings_open: u64)\n\t91: ReadRef\n\t92: LdU64(1)\n\t93: Sub\n\t94: CopyLoc[0](Arg0: &mut Marketplace)\n\t95: MutBorrowField[4](Marketplace.listings_open: u64)\n\t96: WriteRef\n\t97: CopyLoc[0](Arg0: &mut Marketplace)\n\t98: ImmBorrowField[6](Marketplace.volume: u64)\n\t99: ReadRef\n\t100: CopyLoc[12](loc7: u64)\n\t101: Add\n\t102: CopyLoc[0](Arg0: &mut Marketplace)\n\t103: MutBorrowField[6](Marketplace.volume: u64)\n\t104: WriteRef\n\t105: CopyLoc[0](Arg0: &mut Marketplace)\n\t106: ImmBorrowField[7](Marketplace.commission_earned: u64)\n\t107: ReadRef\n\t108: CopyLoc[5](loc0: u64)\n\t109: Add\n\t110: MoveLoc[0](Arg0: &mut Marketplace)\n\t111: MutBorrowField[7](Marketplace.commission_earned: u64)\n\t112: WriteRef\n\t113: ImmBorrowLoc[7](loc2: UID)\n\t114: Call object::uid_to_inner(&UID): ID\n\t115: StLoc[10](loc5: ID)\n\t116: MoveLoc[7](loc2: UID)\n\t117: Call object::delete(UID)\n\t118: MoveLoc[10](loc5: ID)\n\t119: MoveLoc[9](loc4: ID)\n\t120: MoveLoc[11](loc6: ID)\n\t121: MoveLoc[13](loc8: address)\n\t122: MoveLoc[4](Arg4: &mut TxContext)\n\t123: FreezeRef\n\t124: Call tx_context::sender(&TxContext): address\n\t125: MoveLoc[12](loc7: u64)\n\t126: MoveLoc[5](loc0: u64)\n\t127: MoveLoc[14](loc9: u64)\n\t128: Pack[5](SoldEvent)\n\t129: Call event::emit<SoldEvent>(SoldEvent)\n\t130: Ret\n}\n\ncommission_for(Arg0: u64, Arg1: u64): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: u64)\n\t1: CastU128\n\t2: MoveLoc[1](Arg1: u64)\n\t3: CastU128\n\t4: Mul\n\t5: LdConst[11](u64: 10000)\n\t6: CastU128\n\t7: Div\n\t8: CastU64\n\t9: Ret\n}\n\npublic commission_bp(Arg0: &Marketplace): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[1](Marketplace.commission_bp: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic treasury(Arg0: &Marketplace): address {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[2](Marketplace.treasury: address)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic listings_open(Arg0: &Marketplace): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[4](Marketplace.listings_open: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic volume(Arg0: &Marketplace): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[6](Marketplace.volume: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic commission_earned(Arg0: &Marketplace): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[7](Marketplace.commission_earned: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic is_paused(Arg0: &Marketplace): bool {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[3](Marketplace.is_paused: bool)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic version(Arg0: &Marketplace): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Marketplace)\n\t1: ImmBorrowField[0](Marketplace.version: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic current_version(): u64 {\nB0:\n\t0: LdConst[0](u64: 1)\n\t1: Ret\n}\n\npublic max_commission_bp(): u64 {\nB0:\n\t0: LdConst[12](u64: 1000)\n\t1: Ret\n}\n\npublic price(Arg0: &Listing): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Listing)\n\t1: ImmBorrowField[8](Listing.price: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic seller(Arg0: &Listing): address {\nB0:\n\t0: MoveLoc[0](Arg0: &Listing)\n\t1: ImmBorrowField[9](Listing.seller: address)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic license_id(Arg0: &Listing): ID {\nB0:\n\t0: MoveLoc[0](Arg0: &Listing)\n\t1: ImmBorrowField[10](Listing.license_id: ID)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic listing_origin(Arg0: &Listing): ID {\nB0:\n\t0: MoveLoc[0](Arg0: &Listing)\n\t1: ImmBorrowField[11](Listing.origin: ID)\n\t2: ReadRef\n\t3: Ret\n}\n\npublic listing_commission_bp(Arg0: &Listing): u64 {\nB0:\n\t0: MoveLoc[0](Arg0: &Listing)\n\t1: ImmBorrowField[5](Listing.commission_bp: u64)\n\t2: ReadRef\n\t3: Ret\n}\n\nConstants [\n\t0 => u64: 1\n\t1 => u64: 2\n\t2 => u64: 3\n\t3 => u64: 4\n\t4 => u64: 5\n\t5 => u64: 6\n\t6 => u64: 7\n\t7 => u64: 8\n\t8 => u64: 9\n\t9 => address: 0xa2668b3f6ed6c95ccacd471cb1f4351b9ae4b11d865c45a764332cbcafc6b3f3\n\t10 => u64: 250\n\t11 => u64: 10000\n\t12 => u64: 1000\n]\n}\n"
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "key": "Datatypes {\"address\":\"0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd\",\"module\":\"license\",\"first\":50,\"after\":null}",
+  "data": {
+   "package": {
+    "module": {
+     "datatypes": {
+      "pageInfo": {
+       "hasNextPage": false,
+       "endCursor": "IlJlZ2lzdHJ5VXBncmFkZWRFdmVudCI="
+      },
+      "nodes": [
+       {
+        "name": "AdminCap",
+        "abilities": [
+         "STORE",
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LICENSE",
+        "abilities": [
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "dummy_field",
+           "type": {
+            "signature": {
+             "body": "bool"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeaseTerm",
+        "abilities": [
+         "COPY",
+         "DROP",
+         "STORE"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": null,
+        "asMoveEnum": {
+         "variants": [
+          {
+           "name": "SixMonths",
+           "fields": []
+          },
+          {
+           "name": "TwelveMonths",
+           "fields": []
+          },
+          {
+           "name": "EighteenMonths",
+           "fields": []
+          }
+         ]
+        }
+       },
+       {
+        "name": "License",
+        "abilities": [
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "serial",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "origin",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "lock",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000001",
+               "module": "option",
+               "type": "Option",
+               "typeParameters": [
+                {
+                 "datatype": {
+                  "package": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd",
+                  "module": "license",
+                  "type": "Lock",
+                  "typeParameters": []
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "Lock",
+        "abilities": [
+         "COPY",
+         "DROP",
+         "STORE"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "term",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd",
+               "module": "license",
+               "type": "LeaseTerm",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "end_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "MigrateEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "v1_license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "v2_license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "serial",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "owner",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "Registry",
+        "abilities": [
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "version",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "next_serial",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "migrated",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "origins",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "table",
+               "type": "Table",
+               "typeParameters": [
+                {
+                 "datatype": {
+                  "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                  "module": "object",
+                  "type": "ID",
+                  "typeParameters": []
+                 }
+                },
+                {
+                 "datatype": {
+                  "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                  "module": "object",
+                  "type": "ID",
+                  "typeParameters": []
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "serials",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "table",
+               "type": "Table",
+               "typeParameters": [
+                "u64",
+                {
+                 "datatype": {
+                  "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                  "module": "object",
+                  "type": "ID",
+                  "typeParameters": []
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "RegistryUpgradedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "from",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "to",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ {
+  "key": "Datatypes {\"address\":\"0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd\",\"module\":\"lease\",\"first\":50,\"after\":null}",
+  "data": {
+   "package": {
+    "module": {
+     "datatypes": {
+      "pageInfo": {
+       "hasNextPage": false,
+       "endCursor": "IlJlbGVhc2VkRXZlbnQi"
+      },
+      "nodes": [
+       {
+        "name": "Lease",
+        "abilities": [
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "lessee",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "license_ids",
+           "type": {
+            "signature": {
+             "body": {
+              "vector": {
+               "datatype": {
+                "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                "module": "object",
+                "type": "ID",
+                "typeParameters": []
+               }
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origins",
+           "type": {
+            "signature": {
+             "body": {
+              "vector": {
+               "datatype": {
+                "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                "module": "object",
+                "type": "ID",
+                "typeParameters": []
+               }
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "term",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd",
+               "module": "license",
+               "type": "LeaseTerm",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "start_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "end_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "locked_count",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "legacy_lease_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000001",
+               "module": "option",
+               "type": "Option",
+               "typeParameters": [
+                "u64"
+               ]
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeaseBook",
+        "abilities": [
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "version",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "is_paused",
+           "type": {
+            "signature": {
+             "body": "bool"
+            }
+           }
+          },
+          {
+           "name": "leases_created",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "licenses_locked",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeaseBookCreatedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease_book_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeaseBookUpgradedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease_book_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "from",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "to",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeaseBuilder",
+        "abilities": [],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd",
+               "module": "lease",
+               "type": "Lease",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeasedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "lessee",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "license_ids",
+           "type": {
+            "signature": {
+             "body": {
+              "vector": {
+               "datatype": {
+                "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                "module": "object",
+                "type": "ID",
+                "typeParameters": []
+               }
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origins",
+           "type": {
+            "signature": {
+             "body": {
+              "vector": {
+               "datatype": {
+                "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                "module": "object",
+                "type": "ID",
+                "typeParameters": []
+               }
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "term_months",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "start_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "end_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "legacy_lease_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000001",
+               "module": "option",
+               "type": "Option",
+               "typeParameters": [
+                "u64"
+               ]
+              }
+             }
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "LeasingPausedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease_book_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "is_paused",
+           "type": {
+            "signature": {
+             "body": "bool"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "ReleasedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "lease_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origin",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "lessee",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "end_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "released_ms",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "remaining",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ {
+  "key": "Datatypes {\"address\":\"0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd\",\"module\":\"marketplace\",\"first\":50,\"after\":null}",
+  "data": {
+   "package": {
+    "module": {
+     "datatypes": {
+      "pageInfo": {
+       "hasNextPage": false,
+       "endCursor": "IlRyZWFzdXJ5Q2hhbmdlZEV2ZW50Ig=="
+      },
+      "nodes": [
+       {
+        "name": "CommissionChangedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "marketplace_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "from_bp",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "to_bp",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "DelistedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "listing_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origin",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "seller",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "ListedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "listing_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origin",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "seller",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "price",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "commission_bp",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "Listing",
+        "abilities": [
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origin",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "price",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "commission_bp",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "seller",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "MarketPausedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "marketplace_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "is_paused",
+           "type": {
+            "signature": {
+             "body": "bool"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "Marketplace",
+        "abilities": [
+         "KEY"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "UID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "version",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "commission_bp",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "treasury",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "listings_open",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "volume",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "commission_earned",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "is_paused",
+           "type": {
+            "signature": {
+             "body": "bool"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "MarketplaceCreatedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "marketplace_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "treasury",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "commission_bp",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "MarketplaceUpgradedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "marketplace_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "from",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "to",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "SoldEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "listing_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "license_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "origin",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "seller",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "buyer",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "price",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "commission",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          },
+          {
+           "name": "seller_proceeds",
+           "type": {
+            "signature": {
+             "body": "u64"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       },
+       {
+        "name": "TreasuryChangedEvent",
+        "abilities": [
+         "COPY",
+         "DROP"
+        ],
+        "typeParameters": [],
+        "asMoveStruct": {
+         "fields": [
+          {
+           "name": "marketplace_id",
+           "type": {
+            "signature": {
+             "body": {
+              "datatype": {
+               "package": "0x0000000000000000000000000000000000000000000000000000000000000002",
+               "module": "object",
+               "type": "ID",
+               "typeParameters": []
+              }
+             }
+            }
+           }
+          },
+          {
+           "name": "from",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          },
+          {
+           "name": "to",
+           "type": {
+            "signature": {
+             "body": "address"
+            }
+           }
+          }
+         ]
+        },
+        "asMoveEnum": null
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+]

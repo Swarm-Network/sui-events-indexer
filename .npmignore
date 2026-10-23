@@ -1,7 +1,0 @@
-src/
-tests/
-.env
-.env.*
-tsconfig.json
-.gitignore
-node_modules/ 

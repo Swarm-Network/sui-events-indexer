@@ -1,145 +1,114 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
+/**
+ * sui-events-indexer CLI.
+ *
+ *   sui-events-indexer inspect  -p <package> [-n network]
+ *   sui-events-indexer generate -p <package> --name <project> [-o dir] [-n network] [-i ms] [--force]
+ */
+import { Command, InvalidArgumentError } from 'commander';
 
-import { Command } from 'commander';
-import fs from 'fs';
-import path from 'path';
-import {
-  extractAllStructs,
-  generateTypeScriptDTOs,
-} from './services/dtoGenerator';
-import {
-  extractEventTypes,
-  filterEventStructsAndDependencies,
-} from './services/eventExtractor';
-import { generateProject } from './services/projectGenerator';
-import { SuiClient } from './services/suiClient';
-import { saveDTOsToFiles } from './utils/fileSystem';
-import { generatePrismaSchema } from './utils/prismaSchemaGenerator';
+import pkg from '../package.json' with { type: 'json' };
+import { analyzePackage, buildProjectFiles, writeProject } from './codegen/project';
+import { isValidProjectName } from './codegen/naming';
+import { createGraphqlExecutor, isNetwork, type Network, NETWORKS } from './sui/graphql';
+import { formatMoveType } from './sui/moveTypes';
+import { PackageReader } from './sui/packageReader';
 
-const NETWORK_RPC_URLS = {
-  mainnet: 'https://fullnode.mainnet.sui.io:443',
-  testnet: 'https://fullnode.testnet.sui.io:443',
-  devnet: 'https://fullnode.devnet.sui.io:443',
-} as const;
+const parseNetwork = (value: string): Network => {
+  const network = value.toLowerCase();
+  if (!isNetwork(network)) throw new InvalidArgumentError(`must be one of ${NETWORKS.join(', ')}`);
+  return network;
+};
 
-type Network = keyof typeof NETWORK_RPC_URLS;
+const parseInterval = (value: string): number => {
+  const ms = Number(value);
+  if (!Number.isInteger(ms) || ms < 50) throw new InvalidArgumentError('must be an integer >= 50');
+  return ms;
+};
 
-const program = new Command();
-
-async function generateTypes(
-  packageId: string,
-  network: Network,
-  projectDir: string,
-) {
-  const rpcUrl = NETWORK_RPC_URLS[network];
-  const suiClient = new SuiClient(rpcUrl);
-
-  try {
-    const packageData = await suiClient.getNormalizedMoveModulesByPackage(
-      packageId,
-    );
-
-    const bytecode = await suiClient.getPackageBytecode(packageId);
-
-    if (!bytecode) {
-      console.error('No bytecode found');
-      return;
-    }
-
-    // Extract event types from bytecode
-    const eventTypes = extractEventTypes(bytecode, packageData);
-
-    // Extract all structs from module data
-    const allStructs = extractAllStructs(packageData);
-
-    // Filter structs to only include event types and their dependencies
-    const eventStructs = await filterEventStructsAndDependencies(
-      allStructs,
-      eventTypes,
-      suiClient,
-    );
-
-    // Generate interfaces
-    const interfaces = generateTypeScriptDTOs(eventStructs);
-    const outputDir = path.join(projectDir, 'types');
-    saveDTOsToFiles(interfaces, outputDir);
-
-    // Generate Prisma schema
-    const prismaSchema = generatePrismaSchema(outputDir);
-    fs.writeFileSync(
-      path.join(projectDir, 'prisma', 'schema.prisma'),
-      prismaSchema,
-    );
-    console.log('Generated Prisma schema');
-
-    // Don't run Prisma commands here
-  } catch (error) {
-    console.error('Error:', error);
+const parseProjectName = (value: string): string => {
+  if (!isValidProjectName(value)) {
+    throw new InvalidArgumentError('use lowercase letters, digits, ".", "_" or "-"');
   }
+  return value;
+};
+
+interface CommonOptions {
+  package: string;
+  network: Network;
+  graphqlUrl?: string;
+  pinVersion?: boolean;
 }
 
-program
+const analyze = async (options: CommonOptions) => {
+  const reader = new PackageReader(createGraphqlExecutor(options.network, options.graphqlUrl));
+  const info = await reader.readPackage(options.package, { pinVersion: options.pinVersion });
+  return analyzePackage(info, reader);
+};
+
+const program = new Command()
   .name('sui-events-indexer')
-  .description(
-    'Generate TypeScript types and Prisma schema from Sui Move package events',
-  )
-  .version('1.0.0');
+  .description('Generate a Bun + Drizzle event indexer for a Sui Move package')
+  .version(pkg.version);
 
-program
-  .command('generate')
-  .description('Generate a new event indexer project')
-  .requiredOption('-p, --package <id>', 'Package ID to index events from')
-  .requiredOption('--name <name>', 'Project name')
-  .option('-o, --output <dir>', 'Output directory', '.')
-  .option('-n, --network <network>', 'Network to use', 'mainnet')
-  .option('-i, --interval <ms>', 'Polling interval in milliseconds', '1000')
-  .action(async (options) => {
-    const network = options.network.toLowerCase();
-    if (!Object.keys(NETWORK_RPC_URLS).includes(network)) {
-      console.error(
-        `Invalid network. Must be one of: ${Object.keys(NETWORK_RPC_URLS).join(
-          ', ',
-        )}`,
-      );
-      process.exit(1);
-    }
+const withPackageOptions = (command: Command) =>
+  command
+    .requiredOption('-p, --package <id>', 'package id (original or any version)')
+    .option('-n, --network <network>', `one of ${NETWORKS.join(', ')}`, parseNetwork, 'mainnet' as Network)
+    .option('--graphql-url <url>', 'override the public Sui GraphQL endpoint')
+    .option('--pin-version', 'analyze exactly the given package version instead of the latest');
 
-    try {
-      // First get the event types
-      const rpcUrl = NETWORK_RPC_URLS[network as Network];
-      const suiClient = new SuiClient(rpcUrl);
-      const packageData = await suiClient.getNormalizedMoveModulesByPackage(
-        options.package,
-      );
-      const bytecode = await suiClient.getPackageBytecode(options.package);
-      const eventTypes = extractEventTypes(bytecode, packageData);
+withPackageOptions(
+  program.command('inspect').description('List the events a package emits, without generating anything'),
+).action(async (options: CommonOptions) => {
+  const analysis = await analyze(options);
+  console.log(`Package ${analysis.pkg.requestedId} (analyzed v${analysis.pkg.version}: ${analysis.pkg.storageId})`);
+  console.log(`Streams: ${analysis.eventPackageIds.join(', ') || '(none)'}\n`);
+  for (const plan of analysis.plans) {
+    console.log(`${plan.dispatchKey} -> ${plan.table}`);
+    for (const c of plan.columns) console.log(`  ${c.field}: ${c.moveType}`);
+  }
+  if (analysis.plans.length === 0) console.log('No event::emit call sites found.');
+});
 
-      // Then generate the project
-      const projectDir = await generateProject({
-        packageId: options.package,
+withPackageOptions(
+  program.command('generate').description('Generate a new event indexer project'),
+)
+  .requiredOption('--name <name>', 'project name (directory and npm name)', parseProjectName)
+  .option('-o, --output <dir>', 'parent directory', '.')
+  .option('-i, --interval <ms>', 'polling interval once caught up (ms, >= 50)', parseInterval, 500)
+  .option('--force', 'write into a non-empty directory, overwriting generated files')
+  .action(
+    async (
+      options: CommonOptions & { name: string; output: string; interval: number; force?: boolean },
+    ) => {
+      const analysis = await analyze(options);
+      if (analysis.plans.length === 0) {
+        throw new Error(`No events found in package ${options.package} on ${options.network}`);
+      }
+
+      const files = buildProjectFiles(analysis, {
         projectName: options.name,
-        outputDir: options.output,
-        eventTypes,
-        pollingInterval: parseInt(options.interval),
+        network: options.network,
+        pollingIntervalMs: options.interval,
+        generatorVersion: pkg.version,
+        graphqlUrl: options.graphqlUrl,
       });
+      const dir = await writeProject(options.output, options.name, files, options.force);
 
-      // Finally generate types and schema
-      await generateTypes(options.package, network as Network, projectDir);
+      console.log(`Generated ${analysis.plans.length} event tables for ${options.package} in ${dir}
 
-      console.log(`
-Project generated successfully at ${projectDir}
-
-To get started:
-  cd ${projectDir}
-  npm install
-  docker-compose up -d
-  npm run db:setup:dev
-  npm run indexer
+Next:
+  cd ${dir}
+  bun install
+  bun run db:up
+  bun run db:setup
+  bun run indexer      # and, separately: bun run api
 `);
-    } catch (error) {
-      console.error('Failed to generate project:', error);
-      process.exit(1);
-    }
-  });
+    },
+  );
 
-program.parse();
+program.parseAsync().catch((error: unknown) => {
+  console.error(error instanceof Error ? error.message : error);
+  process.exit(1);
+});

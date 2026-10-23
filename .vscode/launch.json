@@ -2,17 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Attach to process",
-      "type": "node",
+      "name": "Debug CLI (generate)",
+      "type": "bun",
+      "request": "launch",
+      "program": "src/index.ts",
+      "args": ["generate", "-n", "testnet", "-p", "0x696f43351e04b3e9ba253c04cc23be860b0288d265fcb19a7ba6c65bb4bd2cdd", "--name", "debug-indexer", "-o", ".context", "--force"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Attach to bun --inspect",
+      "type": "bun",
       "request": "attach",
-      "port": 9229,
-      "skipFiles": [
-          // Node.js internal core modules
-          "<node_internals>/**",
-  
-          // Ignore all dependencies (optional)
-          "${workspaceFolder}/node_modules/**",
-      ],
-  }
+      "url": "ws://localhost:6499/"
+    }
   ]
 }

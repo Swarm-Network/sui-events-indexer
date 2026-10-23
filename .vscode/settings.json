@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.ts.tpl": "typescript",
+    "*.json.tpl": "jsonc"
+  }
+}
